@@ -3,8 +3,7 @@ jQuery(document).ready(function($) {
     navItems();
     scopriDiPiu();
     seeDayProgram();
-    seeDaySpeakers();
-    privacy();
+    //privacy();
 });
 
 /* Hide del logo mentre si scrolla la pagina e show quando si torna all'inizio della pagina */
@@ -56,35 +55,9 @@ function seeDayProgram() {
     })
 }
 
-/* Buttoni per mostrare il giorno 1 e il giorno 2 di relatori */
-function seeDaySpeakers() {
-    $("#1st").click(function() {
-        $(".1st-day").show();
-        $(".2nd-day").hide();
-        $("#1st").removeClass("button-round-empty").addClass("button-round");
-        $("#2nd").removeClass("button-round").addClass("button-round-empty");
-    })
-    $("#2nd").click(function() {
-        $(".1st-day").hide();
-        $(".2nd-day").show();
-        $("#1st").removeClass("button-round").addClass("button-round-empty");
-        $("#2nd").removeClass("button-round-empty").addClass("button-round");
-    })
-    $("#see-more").click(function() {
-        $(".1st-day-more").toggle();
-        $(".2nd-day-more").hide();
-        $("#see-more").toggleClass("button-round-empty");
-    })
-     $("#see-more-2").click(function() {
-        $(".1st-day-more").hide();
-        $(".2nd-day-more").toggle();
-        $("#see-more-2").toggleClass("button-round-empty");
-    })
-}
-
 /* Privacy */
-function privacy() {
+/*function privacy() {
     $("#privacy-button").click(function(){
         $("#privacy-info").toggle("slow");
     })
-}
+}*/

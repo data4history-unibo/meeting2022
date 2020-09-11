@@ -50,7 +50,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .background-black {background-color: #343434;} 
 .background-dimgray {background-color: #3A515F;} /*#78A892*/
 .background-gray {background-color: #EFF3F5;} 
-.background-hero {/*background-image: url("img/background.png");*/ background-repeat: no-repeat; background-size: cover;} 
+.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;} 
 .background-red {background-color: #55111D;}
 .background-white {background-color: #FEFEFE;} 
 
