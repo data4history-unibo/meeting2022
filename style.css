@@ -30,7 +30,9 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .center-text {text-align: center;}
 .justify {text-align: justify;}
 .left {float: left;}
+@media only screen and (max-width: 1024px) {.left {display: block; float: none; margin: 0 auto !important; margin-bottom: 4vh !important; margin-top: 10px !important;}}
 .right {float: right;}
+@media only screen and (max-width: 1024px) {.right {display: block; float: none; margin: 0 auto !important;}}
 
 /* Section dimensions */
 .hero-full-screen {height: 100vh;}
@@ -54,7 +56,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .background-black {background-color: #343434;} 
 .background-dimgray {background-color: #3A515F;} /*#78A892*/
 .background-gray {background-color: #EFF3F5;} 
-.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;} 
+.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;}
+@media only screen and (max-width: 1024px) {.background-hero {background-image: none; background-color: #E8E7F0;}} 
 .background-red {background-color: #55111D;}
 .background-white {background-color: #FEFEFE;} 
 
@@ -139,3 +142,6 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Icone */
 .fa-copy:hover {color: #FEFEFE; font-size: 20px;}
+
+/* Brand */
+@media only screen and (max-width: 1024px) {.brand {margin-top: 2vh;}}
