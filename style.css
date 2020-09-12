@@ -18,6 +18,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Margin */
 .margin-bottom-button {margin-bottom: 4vh !important;}
+.margin-bottom-button-half {margin-bottom: 2vh !important;}
 .margin-bottom-section {margin-bottom: 7vh;}
 .margin-top-section {margin-top: 7vh;}
 .no-margin-bottom {margin-bottom: 0 !important;}
