@@ -71,7 +71,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .p-section {font: 18px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
 
 /* Navbar */
-.nav a {color: #343434 !important; cursor: pointer; font: 14px Raleway, sans-serif; letter-spacing: 2px; text-transform: uppercase;}
+.nav a {color: #343434; cursor: pointer; font: 14px Raleway, sans-serif; letter-spacing: 2px; text-transform: uppercase;}
+.nav a:hover {color: #3A515F;}
 .active > a {background-color: transparent !important; color: #3A515F !important; font-weight: 600; text-shadow: 10px 10px 31px -2px rgba(179,177,179,0.77);}
 .navbar-brand {background-color: #E8E7F0; padding-top: 10px !important;}
 .navbar-brand > img {background-color: #E8E7F0; padding: 2vh !important;}
@@ -85,11 +86,12 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Button */
 .button-round {background-color: #55111D; border: 1px solid #55111D; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round:hover {background-color: transparent; border: 1px solid #55111D; border-radius: 37px; color: #55111D; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-empty {background-color: transparent; border: 1px solid #55111D; border-radius: 37px; color: #55111D; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-dimgray {background-color: #3A515F; border: 1px solid #3A515F; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-empty-dimgray {background-color: transparent; border: 1px solid #3A515F; border-radius: 37px; color: #3A515F; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #3A515F; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-empty-white {background-color: transparent; border: 1px solid #3A515F; border-radius: 37px; color: #3A515F; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white:hover {background-color: #3A515F; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 
 /* Cards */
 .circle {background-color: #bbb; border-radius: 50%; display: block; height: 15vh; margin: 20px auto; width: 15vh;}
