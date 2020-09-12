@@ -83,7 +83,8 @@
                         <hr class="color-white hr-card">
                         <div class="thumbnail">
                             <div class="caption">
-                              <p class="color-black justify p-section">...</p>
+                              <p class="color-black justify p-section">Segui in diretta su Teams il convegno Italianistica Digitale</p>
+                              <p class="color-black justify p-section"><a href="https://teams.microsoft.com/l/team/19%3a1cf1b3dcd2b149879cd1c9a420d5742b%40thread.tacv2/conversations?groupId=970d0ea8-b2a9-449e-ae5e-7d4af14fbbf9&tenantId=e99647dc-1b08-454a-bf8c-699181b389ab" class="color-dimgray no-underline" target="_blank" alt="Link al convegno virtuale"><button class="button-round center">Segui la diretta</button></a></p>
                             </div>
                         </div>
                     </div>
@@ -422,7 +423,17 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="secondary-title color-white">Collegati in streaming</h2>
-                        <hr class="color-white hr-secondary">
+                        <hr class="color-white hr-secondary margin-bottom-section">
+                        <a href="https://teams.microsoft.com/l/team/19%3a1cf1b3dcd2b149879cd1c9a420d5742b%40thread.tacv2/conversations?groupId=970d0ea8-b2a9-449e-ae5e-7d4af14fbbf9&tenantId=e99647dc-1b08-454a-bf8c-699181b389ab" class="color-dimgray" target="_blank" alt="Link al convegno virtuale"><button class="button-round-white center">Segui in diretta streaming Teams il Convegno Italianistica Digitale</button></a>
+                        <p class="color-white center-text p-section margin-top-section">Condividi l'invito a partecipare</p>
+                        <p class="color-white center-text p-section">
+                            <input type="text" value="https://teams.microsoft.com/l/team/19%3a1cf1b3dcd2b149879cd1c9a420d5742b%40thread.tacv2/conversations?groupId=970d0ea8-b2a9-449e-ae5e-7d4af14fbbf9&tenantId=e99647dc-1b08-454a-bf8c-699181b389ab" class="color-black" id="copyURL">
+                            <a class="color-white" onclick="copyURL()" onmouseout="outFunc()"><i class="far fa-copy"></i></a>
+                            <!-- Non cancellare, può servire in altri progetti / share su whatsapp e facebook -->
+                            <!--<a href="https://wa.me/?text=https://teams.microsoft.com/l/team/19%3a1cf1b3dcd2b149879cd1c9a420d5742b%40thread.tacv2/conversations?groupId=970d0ea8-b2a9-449e-ae5e-7d4af14fbbf9&tenantId=e99647dc-1b08-454a-bf8c-699181b389ab" class="color-white" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://teams.microsoft.com/l/team/19%3a1cf1b3dcd2b149879cd1c9a420d5742b%40thread.tacv2/conversations?groupId=970d0ea8-b2a9-449e-ae5e-7d4af14fbbf9&tenantId=e99647dc-1b08-454a-bf8c-699181b389ab" class="color-white" target="_blank"><i class="fab fa-facebook-f"></i></a>-->
+                        </p>
+                        <p class="color-white center-text no-display p-section" id="copiedAlert">Link copiato!</p>
                     </div>
                 </div>
             </div>
@@ -437,7 +448,7 @@
                     <p class="color-black justify p-section">Lasciaci un messaggio senza temere per la tua privacy! Per noi la privacy è molto importante e ci impegnamo a non divulgare i tuoi dati. Per ulteriori informazioni è possibile consultare la nostra <a href="https://www.unibo.it/it/ateneo/privacy-e-note-legali" class="bold color-dimgray underline" target="_blank" id="privacy-button">informativa sulla privacy</a>.</p>
                 </div>
             </div>
-            <!--<div class="row" id="privacy-info" style="display: none;">
+            <!--<div class="row" id="privacy-info" style="display: none;">      // Non cancellare, può servire per altri progetti
                 <div class="col-md-12">
                     <h2 class="secondary-title color-black">Informativa sulla privacy</h2>
                     <p class="color-black justify p-section">La tua privacy è molto importante per noi. Di conseguenza, abbiamo sviluppato questa Politica per farvi capire come raccogliamo, usiamo, comunichiamo e divulghiamo e facciamo uso di informazioni personali. Proteggiamo le informazioni personali mediante ragionevoli misure di sicurezza contro la perdita o il furto, nonché l'accesso non autorizzato, la divulgazione, la copia, l'uso o la modifica.</p>
@@ -489,5 +500,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <!-- Main js -->
         <script src="main.js"></script>
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/5ab590d7bf.js" crossorigin="anonymous"></script>
     </body>
 </html>

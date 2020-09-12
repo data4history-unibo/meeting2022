@@ -119,3 +119,17 @@ function seeDayProgram() {
         $("#privacy-info").toggle("slow");
     })
 }*/
+
+/* Comando copy */
+function copyURL() {
+    var copyText = document.getElementById("copyURL");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    document.getElementById("copiedAlert").style.display = "block";
+}
+
+/* Avviso che l'URL è stato copiato */
+function outFunc() {
+    document.getElementById("copiedAlert").style.display = "none";
+}

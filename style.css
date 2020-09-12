@@ -45,6 +45,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .bold {font-weight: 600;}
 .italic {font-style: italic;}
 .underline {cursor: pointer; text-decoration: underline;}
+.no-underline {cursor: pointer; text-decoration: none;}
+.no-underline:hover {cursor: pointer; text-decoration: none;}
 
 /* Background colors */
 .background-black {background-color: #343434;} 
@@ -86,6 +88,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .button-round-empty {background-color: transparent; border: 1px solid #55111D; border-radius: 37px; color: #55111D; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-dimgray {background-color: #3A515F; border: 1px solid #3A515F; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-empty-dimgray {background-color: transparent; border: 1px solid #3A515F; border-radius: 37px; color: #3A515F; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #3A515F; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-empty-white {background-color: transparent; border: 1px solid #3A515F; border-radius: 37px; color: #3A515F; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 
 /* Cards */
 .circle {background-color: #bbb; border-radius: 50%; display: block; height: 15vh; margin: 20px auto; width: 15vh;}
