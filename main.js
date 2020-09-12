@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
     navScroll();
+    activeMove();
     navItems();
     scopriDiPiu();
     seeDayProgram();
@@ -16,14 +17,71 @@ function navScroll() {
     })
 }
 
+/* Spostamento dell'active in navbar in base allo scroll della pagina */
+function activeMove() {
+    var heightHome = $("#home").offset().top;
+    var heightAbout = $("#about").offset().top;
+    var heightProgramma = $("#programma").offset().top;
+    var heightRelatori = $("#relatori").offset().top;
+    var heightCollegati = $("#collegati").offset().top;
+    var heightContatti = $("#contatti").offset().top;
+    $(window).scroll(function() {
+        var windowPos = window.pageYOffset;
+        if (windowPos > heightHome) {
+            $(".home-li").addClass("active");
+            $(".about-li").removeClass("active");
+            $(".programma-li").removeClass("active");
+            $(".relatori-li").removeClass("active");
+            $(".collegati-li").removeClass("active");
+            $(".contatti-li").removeClass("active");
+        } 
+        if (windowPos > heightAbout) {
+            $(".home-li").removeClass("active");
+            $(".about-li").addClass("active");
+            $(".programma-li").removeClass("active");
+            $(".relatori-li").removeClass("active");
+            $(".collegati-li").removeClass("active");
+            $(".contatti-li").removeClass("active");
+        } 
+        if (windowPos > heightProgramma) {
+            $(".about-li").removeClass("active");
+            $(".programma-li").addClass("active");
+            $(".relatori-li").removeClass("active");
+            $(".collegati-li").removeClass("active");
+            $(".contatti-li").removeClass("active");
+        }
+        if (windowPos > heightRelatori) {
+            $(".about-li").removeClass("active");
+            $(".programma-li").removeClass("active");
+            $(".relatori-li").addClass("active");
+            $(".collegati-li").removeClass("active");
+            $(".contatti-li").removeClass("active");
+        }
+        if (windowPos > heightCollegati) {
+            $(".about-li").removeClass("active");
+            $(".programma-li").removeClass("active");
+            $(".relatori-li").removeClass("active");
+            $(".collegati-li").addClass("active");
+            $(".contatti-li").removeClass("active");
+        }
+        if (windowPos > heightContatti) {
+            $(".about-li").removeClass("active");
+            $(".programma-li").removeClass("active");
+            $(".relatori-li").removeClass("active");
+            $(".collegati-li").removeClass("active");
+            $(".contatti-li").addClass("active");
+        }
+    })
+}
+
 /* Nav items scroll fino al corrispondente id */
 function navItems() {
     $(".nav-item").click(function() {
         var divItem = $(this).attr("value");
-        $("a[value!='" + divItem + "']").parent().removeClass("active");
-        $("a[value='" + divItem + "']").parent().addClass("active");
+        //$("a[value!='" + divItem + "']").parent().removeClass("active");  // non cancellare, potrebbe servire in altri progetti
+        //$("a[value='" + divItem + "']").parent().addClass("active");
         $("html, body").animate({
-            scrollTop: $("#" + divItem).offset().top
+            scrollTop: $("#" + divItem).offset().top + 1
           }, 800
         )
     })
@@ -33,7 +91,7 @@ function navItems() {
 function scopriDiPiu() {
     $("#find-more").click(function() {
         $("html, body").animate({
-            scrollTop: $("#about").offset().top
+            scrollTop: $("#about").offset().top + 1
           }, 800
         )
     })
@@ -55,7 +113,7 @@ function seeDayProgram() {
     })
 }
 
-/* Privacy */
+/* Privacy */ // non cancellare, potrebbe servire in altri progetti
 /*function privacy() {
     $("#privacy-button").click(function(){
         $("#privacy-info").toggle("slow");
