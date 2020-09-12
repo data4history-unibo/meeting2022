@@ -73,6 +73,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .pre-footer-title {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
 .pre-footer-subtitle {font: 17px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
 .secondary-title {font: 35px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
+@media only screen and (max-width: 767px) {.secondary-title {font-size: 25px;}}
 .thumbnail-title {font: 20px Raleway, sans-serif; font-weight: 600; letter-spacing: 2px;}
 
 /* Paragraphs */ 
