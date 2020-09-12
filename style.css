@@ -67,13 +67,16 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .copyright-title {font: 15px Raleway, sans-serif; letter-spacing: 0.6px; text-align: center;}
 .main-title {font: 65px Raleway, sans-serif; text-align: center; text-transform: uppercase; line-height: 65px; color: #343434;}
 @media only screen and (max-width: 767px) {.main-title {font-size: 35px; line-height: 40px;}}
+@media only screen and (max-height: 415px) {.main-title {font-size: 30px;}}
 .main-subtitle-enlarged {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center; text-transform: uppercase; line-height: 65px; color: #343434;}
 @media only screen and (max-width: 767px) {.main-subtitle-enlarged {font-size: 21px; line-height: 30px;}}
+@media only screen and (max-height: 415px) {.main-subtitle-enlarged {font-size: 18px;}}
 .main-subtitle {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center; color: #343434;}
 .pre-footer-title {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
 .pre-footer-subtitle {font: 17px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
 .secondary-title {font: 35px Raleway, sans-serif; letter-spacing: 2px; text-align: center;}
 @media only screen and (max-width: 767px) {.secondary-title {font-size: 25px;}}
+@media only screen and (max-height: 415px) {.secondary-title {font-size: 15px;}}
 .thumbnail-title {font: 20px Raleway, sans-serif; font-weight: 600; letter-spacing: 2px;}
 
 /* Paragraphs */ 
@@ -91,6 +94,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .navbar-default {background-color: #E8E7F0 !important; background-image: none !important; border: 0 !important; box-shadow: none !important; -webkit-box-shadow: none !important;}
 .mobile-home {display: none;}
 @media only screen and (max-width: 1024px) {.mobile-home {display: block !important;}}
+@media only screen and (max-height: 415px) {.mobile-home-img {display: none;}}
 
 /* Hr */
 .hr-card {border: 3px solid; width: 75%;}
