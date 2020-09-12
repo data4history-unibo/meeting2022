@@ -15,6 +15,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .padding-main-section {padding: 4vh 4vh 4vh 4vh;}
 .padding-section {padding: 13vh 0 13vh 0;}
 .padding-section-enlarged {padding: 25vh 0 25vh 0;}
+@media only screen and (max-width: 1024px) {.padding-section-enlarged {padding: 20vh 0 20vh 0;}}
 
 /* Margin */
 .margin-bottom-button {margin-bottom: 4vh !important;}
