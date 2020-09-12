@@ -130,3 +130,6 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 #russo-emilio {background-image: url("img/russo-emilio.png"); background-size: cover; background-repeat: no-repeat;}
 #leonardi {background-image: url("img/leonardi.png"); background-size: cover; background-repeat: no-repeat;}
 #del-vento {background-image: url("img/del-vento.png"); background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+/* Icone */
+.fa-copy:hover {color: #FEFEFE; font-size: 20px;}
