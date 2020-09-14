@@ -1,5 +1,7 @@
 # Academic Event Template
 
+<b>Template Demo</b>: https://martinadellobuono.github.io/academicevent-template/
+
 The <b>Academic Event Template</b> has been designed and developed by Martina Dello Buono to create your own academic event web page to promote your event.
 
 It is very simple and quick to customize. You will find the following files.
