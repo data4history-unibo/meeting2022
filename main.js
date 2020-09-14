@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
     //privacy();
 });
 
-/* Hide del logo mentre si scrolla la pagina e show quando si torna all'inizio della pagina */
+// Logo hide while scrolling the page and show at the beginning of the page
 function navScroll() {
     $(window).scroll(function() {
         $(".navbar-brand > img").hide();
@@ -17,7 +17,7 @@ function navScroll() {
     })
 }
 
-/* Spostamento dell'active in navbar in base allo scroll della pagina */
+// Dynamic active class on navbar items while scrolling the page ...I can do better, so do you!
 function activeMove() {
     var heightHome = $("#home").offset().top;
     var heightAbout = $("#about").offset().top;
@@ -74,7 +74,7 @@ function activeMove() {
     })
 }
 
-/* Nav items scroll fino al corrispondente id */
+// Navbar items click and scroll to corresponding id
 function navItems() {
     $(".nav-item").click(function() {
         var divItem = $(this).attr("value");
@@ -87,7 +87,7 @@ function navItems() {
     })
 }
 
-/* Scopri di più */
+// Learn more - Scopri di più button
 function scopriDiPiu() {
     $("#find-more").click(function() {
         $("html, body").animate({
@@ -97,7 +97,7 @@ function scopriDiPiu() {
     })
 }
 
-/* Buttoni per mostrare il giorno 1 e il giorno 2 di programma */
+// Buttons to show different days of a programm ...I can do better and more "abstract", but I had no time! Make it better :)
 function seeDayProgram() {
     $("#1st-program").click(function() {
         $(".1st-day-program").show();
@@ -113,14 +113,14 @@ function seeDayProgram() {
     })
 }
 
-/* Privacy */ // non cancellare, potrebbe servire in altri progetti
+/* Privacy */ // Do not delete it, maybe it can be useful in other projects.
 /*function privacy() {
     $("#privacy-button").click(function(){
         $("#privacy-info").toggle("slow");
     })
 }*/
 
-/* Comando copy */
+// Copy command
 function copyURL() {
     var copyText = document.getElementById("copyURL");
     copyText.select();
@@ -129,7 +129,7 @@ function copyURL() {
     document.getElementById("copiedAlert").style.display = "block";
 }
 
-/* Avviso che l'URL è stato copiato */
+// Copied text alert
 function outFunc() {
     document.getElementById("copiedAlert").style.display = "none";
 }
