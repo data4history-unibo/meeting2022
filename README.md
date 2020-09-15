@@ -24,6 +24,6 @@ You will find also two folders:
   <li><b>img</b> - This folder has to include all the images you want to show in your web page, including a photo for each relator, just in case     you want them to be visualized by the users. To show the photos of the relators, you have to assign an id to each corresponding image container,   then recall it in your .css and applies "background-image" property. For all the relators do not want to show their face, a placeholder icon       called "user.png" and a class "no-user" to insert in index.html instead of the relator's id are included. All the logos and an image for your     homepage background have to be contained in this folder.</li>
 </ol> 
 
-In each code itself, you will also find some comments to lines of code to help you in your job.
+In the code itself, you will also find some comments to lines to help you in your job.
 
 Have a good time!
