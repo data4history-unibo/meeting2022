@@ -11,7 +11,7 @@ It is very simple and quick to customize. You will find the following files.
     <ul>
       <li><a href="https://getbootstrap.com/docs/3.3/getting-started/" target="_blank" alt="Google Fonts website">Bootstrap 3.3.7</a> - Also the         Bootstrap .js is already included.</li>
       <li><a href="https://fonts.google.com/" target="_blank" alt="Google Fonts website">Google Fonts</a> - You can customize your web page fonts       accessing Google Fonts website and embedding the specific code of the fonts you like in index.html Academic Event Template file.</li>
-      <li><a href="https://fontawesome.com/" target="_blank" alt="Google Fonts website">Font Awesome</a>.</li>
+      <li><a href="https://fontawesome.com/" target="_blank" alt="Google Fonts website">Font Awesome</a> - You can customize your icons in the web       page choosing them in Font Awesome icon set.</li>
     </ul>
   </li>
   <li><b>style.css</b>.</li>
