@@ -15,7 +15,7 @@ It is very simple and quick to customize. You will find the following files.
     </ul>
   </li>
   <li><b>style.css</b>.</li>
-  <li><b>main.js</b> - This file is written in jQuery. jQuery reference is included in index.html. Only two fuctions are written in JavaScript.     </li>
+  <li><b>main.js</b> - This file is written in jQuery. jQuery reference is included in index.html. Only two fuctions are written in pure             JavaScript.</li>
 </ol>
 
 You will find also two folders:
