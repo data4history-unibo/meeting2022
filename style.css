@@ -55,13 +55,13 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 @media only screen and (max-width: 320px) {.font-mail{font-size: 11px;}}
 @media only screen and (min-width: 321px) and (max-width: 767px) {.font-mail{font-size: 14px;}}
 /* Background colors */
-.background-black {background-color: #343434;} 
+.background-black {background-color: #343434;}
 .background-dimgray {background-color: #3A515F;} /*#78A892*/
-.background-gray {background-color: #EFF3F5;} 
+.background-gray {background-color: #EFF3F5;}
 .background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;}
-@media only screen and (max-width: 1024px) {.background-hero {background-image: none; background-color: #E8E7F0;}} 
+@media only screen and (max-width: 1024px) {.background-hero {background-image: none; background-color: #E8E7F0;}}
 .background-red {background-color: #55111D;}
-.background-white {background-color: #FEFEFE;} 
+.background-white {background-color: #FEFEFE;}
 
 /* Titles */
 .copyright-title {font: 15px Raleway, sans-serif; letter-spacing: 0.6px; text-align: center;}
@@ -79,7 +79,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 @media only screen and (max-height: 415px) {.secondary-title {font-size: 15px;}}
 .thumbnail-title {font: 20px Raleway, sans-serif; font-weight: 600; letter-spacing: 2px;}
 
-/* Paragraphs */ 
+/* Paragraphs */
 .pre-footer-p {font: 17px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6; text-align: center;}
 .p-section {font: 18px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
 
@@ -120,7 +120,14 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 @media only screen and (max-width: 1024px) {.thumbnail-title {margin-top: 20px !important;}}
 
 /* Img cards - Insert the images of your relators here as background-image */
-.no-user {background-image: url("img/user.png"); background-size: cover; background-repeat: no-repeat;}
+#beretta {background-image: url("http://larhra.ish-lyon.cnrs.fr/sites/default/files/styles/medium/public/202101_marly_visage.jpg?itok=WwORCCKK"); background-size: cover; background-repeat: no-repeat;}
+#ciula {background-image: url("https://kdl.kcl.ac.uk/static/media/images/Arianna_lq.width-300.jpg"); background-size: cover; background-repeat: no-repeat;}
+#donig {background-image: url("https://neoclassica.fim.uni-passau.de/wp-content/uploads/20090815-_MG_5203.jpg"); background-size: cover; background-repeat: no-repeat;}
+#heuvel {background-image: url("https://www.uva.nl/binaries/_ht_1456394898867/content/documents/personalpages/h/e/c.m.j.m.vandenheuvel/profilepicture"); background-size: cover; background-repeat: no-repeat;}
+#hiltmann {background-image: url("https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/bilder/torsten_hiltmann_foto/@@images/4760601b-2a3b-4c28-8019-eb1d035f4bdd.png"); background-size: cover; background-repeat: no-repeat;}
+#scheltjenss {background-image: url("https://www.uni-bamberg.de/fileadmin/_processed_/4/8/csm_2021-02-19_Scheltjens-Portrait_web_1e7e631134.jpg"); background-size: cover; background-repeat: no-repeat;}
+#tomasi {background-image: url("https://centri.unibo.it/dharc/en/centre/centre-people/francesca-tomasi/@@images/37a8adcd-389a-4c2b-bbf6-e8e87355b7ca.jpeg"); background-size: cover; background-repeat: no-repeat;}
+
 
 /* Icone */
 .fa-copy:hover {color: #FEFEFE; font-size: 20px;}
