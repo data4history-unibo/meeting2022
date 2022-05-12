@@ -81,7 +81,9 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Paragraphs */
 .pre-footer-p {font: 17px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6; text-align: center;}
+.p-list {font: 14px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
 .p-section {font: 18px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
+.p-subsection {font: 16px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
 
 /* Navbar */
 .nav a {color: #343434; cursor: pointer; font: 14px Raleway, sans-serif; letter-spacing: 2px; text-transform: uppercase;}
@@ -120,6 +122,12 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 @media only screen and (max-width: 1024px) {.thumbnail-title {margin-top: 20px !important;}}
 
 /* Img cards - Insert the images of your relators here as background-image */
+#gangemi {background-image: url("https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=665563&IdFoto=4fd27ddf"); background-size: cover; background-repeat: no-repeat;}
+#italia {background-image: url("https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=1043881&IdFoto=a08fc8d0"); background-size: cover; background-repeat: no-repeat;}
+#vitali {background-image: url("https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=228626&IdFoto=66cd7eaf"); background-size: cover; background-repeat: no-repeat;}
+#peroni {background-image: url("https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=432345&IdFoto=b2a00359"); background-size: cover; background-repeat: no-repeat;}
+#daquino {background-image: url("https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=510355&IdFoto=4f676df2"); background-size: cover; background-repeat: no-repeat;}
+#bonora {background-image: url("https://centri.unibo.it/dharc/en/centre/collaborators/paolo-bonora/@@images/1906b6ea-b8d7-403a-87a7-b788bc758e8d.png"); background-size: cover; background-repeat: no-repeat;}
 #beretta {background-image: url("http://larhra.ish-lyon.cnrs.fr/sites/default/files/styles/medium/public/202101_marly_visage.jpg?itok=WwORCCKK"); background-size: cover; background-repeat: no-repeat;}
 #ciula {background-image: url("https://kdl.kcl.ac.uk/static/media/images/Arianna_lq.width-300.jpg"); background-size: cover; background-repeat: no-repeat;}
 #donig {background-image: url("https://neoclassica.fim.uni-passau.de/wp-content/uploads/20090815-_MG_5203.jpg"); background-size: cover; background-repeat: no-repeat;}
@@ -127,7 +135,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 #hiltmann {background-image: url("https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/bilder/torsten_hiltmann_foto/@@images/4760601b-2a3b-4c28-8019-eb1d035f4bdd.png"); background-size: cover; background-repeat: no-repeat;}
 #scheltjenss {background-image: url("https://www.uni-bamberg.de/fileadmin/_processed_/4/8/csm_2021-02-19_Scheltjens-Portrait_web_1e7e631134.jpg"); background-size: cover; background-repeat: no-repeat;}
 #tomasi {background-image: url("https://centri.unibo.it/dharc/en/centre/centre-people/francesca-tomasi/@@images/37a8adcd-389a-4c2b-bbf6-e8e87355b7ca.jpeg"); background-size: cover; background-repeat: no-repeat;}
-
+#alamercery {background-image: url("http://larhra.ish-lyon.cnrs.fr/sites/default/files/styles/medium/public/va2020.jpg?itok=hL6tby3b"); background-size: cover; background-repeat: no-repeat;}
+#derks {background-image: url("https://0.academia-photos.com/7840760/2775157/3833074/s200_sebastiaan.derks.jpg"); background-size: cover; background-repeat: no-repeat;}
 
 /* Icone */
 .fa-copy:hover {color: #FEFEFE; font-size: 20px;}

@@ -2,331 +2,784 @@
 <!-- HTML, CSS, JavaScript, jQuery, Bootstrap, Google Fonts, Font Awesome have been used, so you can use them without inserting in this code their CDNs/links or anything else -->
 <!-- You just need to customize it with your information or new widgets. Have a good time! Martina Dello Buono -->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Data for Hisory, Annual meeting 2022</title>
-        <!-- CSS -->
-        <link rel="stylesheet" href="style.css">
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="" href="img/favicon.ico" />
-    </head>
-    <body>
-        <div class="container-fluid background-hero hero-full-screen" id="home">
-            <nav class="navbar navbar-default navbar-fixed-top no-margin-bottom">
-                <div class="container-fluid">
-                    <!-- Mobile navbar -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data for History, Annual meeting 2022</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="" href="img/favicon.ico" />
+</head>
+
+<body>
+    <div class="container-fluid background-hero hero-full-screen" id="home">
+        <nav class="navbar navbar-default navbar-fixed-top no-margin-bottom">
+            <div class="container-fluid">
+                <!-- Mobile navbar -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="https://www.unibo.it/it" alt="Link al sito web di Alma Mater Studiorum - Università di Bologna" target="_blank"><img src="img/logo-unibo.png"></a>
-                    </div>
-
-                    <!-- Main navbar -->
-                    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-li home-li active"><a class="nav-item" value="home">Home</a></li>
-                            <li class="nav-li about-li"><a class="nav-item" value="about">About</a></li>
-                            <li class="nav-li programma-li"><a class="nav-item" value="programma">Programme</a></li>
-                            <li class="nav-li relatori-li"><a class="nav-item" value="relatori">Speakers</a></li>
-                            <li class="nav-li collegati-li"><a class="nav-item" value="collegati">Registration</a></li>
-                            <li class="nav-li contatti-li"><a class="nav-item" value="contatti">Contacts</a></li>
-                        </ul>
-                    </div>
+                    </button>
+                    <a class="navbar-brand" href="https://www.unibo.it/it"
+                        alt="Link al sito web di Alma Mater Studiorum - Università di Bologna" target="_blank"><img
+                            src="img/logo-unibo.png"></a>
                 </div>
-            </nav>
-            <!-- Home -->
-            <div class="container padding-section-enlarged">
-                <div class="row">
-                    <div class="col-md-12 mobile-home">
-                        <a class="navbar-brand-home" href="https://www.unibo.it/it" alt="Link al sito web di Alma Mater Studiorum - Università di Bologna" target="_blank"><img src="img/logo-unibo.png" class="mobile-home-img center"></a>
-                    </div>
+                <!-- Main navbar -->
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-li home-li active"><a class="nav-item" value="home">Home</a></li>
+                        <li class="nav-li about-li"><a class="nav-item" value="about">About</a></li>
+                        <li class="nav-li programma-li"><a class="nav-item" value="programma">Open debate</a></li>
+                        <li class="nav-li relatori-li"><a class="nav-item" value="relatori">Speakers</a></li>
+                        <li class="nav-li collegati-li"><a class="nav-item" value="collegati">Registration</a></li>
+                        <li class="nav-li contatti-li"><a class="nav-item" value="contatti">Contacts</a></li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 padding-main-section">
-                        <p class="main-subtitle">Annual Meeting</p>
-                        <h1 class="main-title">Data for History</h1>
-                        <hr class="color-dimgray hr-main">
-                        <p class="main-subtitle-enlarged no-margin-bottom">Two days meeting for <b>Data for History Consortium</b> members</p>
-                        <p class="main-subtitle margin-bottom-button">Bologna (Italy), 07-08 June 2022</p>
-                        <button class="background-red button-round center" id="find-more">Show more</button>
-                    </div>
+            </div>
+        </nav>
+        <!-- Home -->
+        <div class="container padding-section-enlarged">
+            <div class="row">
+                <div class="col-md-12 mobile-home">
+                    <a class="navbar-brand-home" href="https://www.unibo.it/it"
+                        alt="Link al sito web di Alma Mater Studiorum - Università di Bologna" target="_blank"><img
+                            src="img/logo-unibo.png" class="mobile-home-img center"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 padding-main-section">
+                    <p class="main-subtitle">Annual Meeting</p>
+                    <h1 class="main-title">Data for History</h1>
+                    <hr class="color-dimgray hr-main">
+                    <p class="main-subtitle-enlarged no-margin-bottom">Two days meeting for <b>Data for History
+                            Consortium</b> members</p>
+                    <p class="main-subtitle margin-bottom-button">Bologna (Italy), 07-08 June 2022</p>
+                    <button class="background-red button-round center" id="find-more">Show more</button>
                 </div>
             </div>
         </div>
-        <!-- About -->
-        <div class="container-fluid background-red padding-section" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="secondary-title color-white">About</h2>
-                        <hr class="color-white hr-secondary margin-bottom-section">
-                        <!-- Insert a first briefing description of the event. Example below -->
-                        <p class="color-white justify p-section margin-bottom-section">Data for History is an international consortium founded on 24 November 2017 with the aim of improving geo-historical data interoperability in the semantic web. Its purpose is to establish a common method for modelling, curating and managing data in historical research. The consortium aims to build up an international community of historians and computer scientists to first develop and then maintain a common ontological model that would allow for domain specific, semantically robust data integration and interoperability. The consortium meets annually to discuss topics of common interest, such as <i>datasets</i>, <i>ontologies</i>, <i>tools</i> and <i>environments</i> in the context of the <i>Semantic Web</i>.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h3 class="center-text color-white no-margin-top thumbnail-title">Data</h3>
-                        <hr class="color-white hr-card">
-                        <div class="thumbnail">
-                            <div class="caption">
-                              <p class="color-black justify p-section"><span class="bold">07 June 2022 </span> - Dalle ore x.00 alle y.00.</p>
-                              <p class="color-black justify p-section"><span class="bold">08 June 2022 </span> - Dalle ore x.00 alle y.00.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <h3 class="center-text color-white no-margin-top thumbnail-title">Location</h3>
-                        <hr class="color-white hr-card">
-                        <div class="thumbnail">
-                            <div class="caption">
-                              <p class="color-black justify margin-bottom-button-half p-section">The meeting will be at: <a href="https://goo.gl/maps/d4dW13dykHt2ynU89" target="_blank">Aula Affreschi</a> or online via Teams.</p>
-                              <!-- Link of the event -->
-                              <p class="color-black justify p-section"><a href="https://github.com/martinadellobuono" class="color-dimgray no-underline" target="_blank" alt="Link al convegno virtuale"><button class="button-round center">Teams meeting</button></a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <h3 class="center-text color-white no-margin-top thumbnail-title">Flyer</h3>
-                        <hr class="color-white hr-card">
-                        <div class="thumbnail">
-                            <div class="caption">
-                              <p class="color-black justify p-section">Dowload the <a href="doc-download/locandina.pdf" class="color-dimgray underline" target="_blank" download="programma-italianistica-digitale-2020">programme</a> in PDF format.</p>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Programma -->
-        <div class="container padding-section" id="programma">
+    </div>
+    <!-- About -->
+    <div class="container-fluid background-red padding-section" id="about">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="secondary-title color-black">Programme</h2>
-                    <hr class="color-dimgray hr-secondary margin-bottom-button">
+                    <h2 class="secondary-title color-white">About</h2>
+                    <hr class="color-white hr-secondary margin-bottom-section">
+                    <!-- Insert a first briefing description of the event. Example below -->
+                    <p class="color-white justify p-section margin-bottom-section">Data for History is an international
+                        consortium founded on 24 November 2017 with the aim of improving geo-historical data
+                        interoperability in the semantic web. Its purpose is to establish a common method for modelling,
+                        curating and managing data in historical research. The consortium aims to build up an
+                        international community of historians and computer scientists to first develop and then maintain
+                        a common ontological model that would allow for domain specific, semantically robust data
+                        integration and interoperability. The consortium meets annually to discuss topics of common
+                        interest, such as <i>datasets</i>, <i>ontologies</i>, <i>tools</i> and <i>environments</i> in
+                        the context of the <i>Semantic Web</i>.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="center-text color-white no-margin-top thumbnail-title">Data</h3>
+                    <hr class="color-white hr-card">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <p class="color-black justify p-section"><span class="bold">07 June 2022 </span> - Dalle ore
+                                x.00 alle y.00.</p>
+                            <p class="color-black justify p-section"><span class="bold">08 June 2022 </span> - Dalle ore
+                                x.00 alle y.00.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="center-text color-white no-margin-top thumbnail-title">Location</h3>
+                    <hr class="color-white hr-card">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <p class="color-black justify margin-bottom-button-half p-section">The meeting will be at:
+                                <a href="https://goo.gl/maps/d4dW13dykHt2ynU89" target="_blank">Aula Affreschi</a> or
+                                online via Teams.
+                            </p>
+                            <!-- Link of the event -->
+                            <p class="color-black justify p-section"><a href="https://github.com/martinadellobuono"
+                                    class="color-dimgray no-underline" target="_blank"
+                                    alt="Link al convegno virtuale"><button class="button-round center">Teams
+                                        meeting</button></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="center-text color-white no-margin-top thumbnail-title">Flyer</h3>
+                    <hr class="color-white hr-card">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <p class="color-black justify p-section">Dowload the <a href="doc-download/locandina.pdf"
+                                    class="color-dimgray underline" target="_blank"
+                                    download="programma-italianistica-digitale-2020">programme</a> in PDF format.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Open debate -->
+    <div class="container padding-section" id="programma">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="secondary-title color-black">Open debate</h2>
+                <hr class="color-dimgray hr-secondary margin-bottom-button">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <button class="button-round-dimgray right margin-bottom-button" id="1st-program">07 June
+                            2022</button>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <button class="button-round-empty-dimgray left margin-bottom-button" id="2nd-program">08 June
+                            2022</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hosts -->
+        <div class="row 1st-day-program">
+            <div class="col-md-12">
+                <p class="main-subtitle-enlarged center-text"><span class="bold">Hosts</span></p>
+            </div>
+        </div>
+        <div class="row 1st-day-program">
+            <div class="col-md-6">
+                <p class="color-black justify p-section"><span class="bold">9.00</span> Mario Rossi - <a
+                        href="https://martinadellobuono.github.io/academicevent-template/"
+                        class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
+            </div>
+            <div class="col-md-6">
+                <p class="color-black justify p-section"><span class="bold">11.15</span> Mario Rossi - <a
+                        href="https://martinadellobuono.github.io/academicevent-template/"
+                        class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
+            </div>
+        </div>
+        <!-- Guests -->
+        <div class="row 2nd-day-program" style="display: none;">
+            <div class="col-md-12">
+                <p class="main-subtitle-enlarged center-text"><span class="bold">Guests</span></p>
+            </div>
+        </div>
+        <div class="row 2nd-day-program" style="display: none;">
+            <div class="col-md-6">
+                <p class="color-black justify p-section"><span class="bold">9.00</span> Mario Rossi - <a
+                        href="https://martinadellobuono.github.io/academicevent-template/"
+                        class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
+            </div>
+            <div class="col-md-6">
+                <p class="color-black justify p-section"><span class="bold">11.15</span> Mario Rossi - <a
+                        href="https://martinadellobuono.github.io/academicevent-template/"
+                        class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Speaker -->
+    <div class="container-fluid background-gray padding-section no-padding-bottom" id="relatori">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="secondary-title color-black">Speakers</h2>
+                    <hr class="color-red hr-secondary margin-bottom-button">
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
-                            <button class="button-round-dimgray right margin-bottom-button" id="1st-program">07 June 2022</button>
+                            <button class="active btn-speaker button-round-dimgray right margin-bottom-button" data-target="hosts">Hosts</button>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <button class="button-round-empty-dimgray left margin-bottom-button" id="2nd-program">08 June 2022</button>
+                            <button class="btn-speaker button-round-empty-dimgray left margin-bottom-button"
+                                data-target="guests">Guests</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- 1 ottobre -->
-            <div class="row 1st-day-program">
-                <div class="col-md-6">
-                    <p class="main-subtitle-enlarged no-margin-bottom">Saluti istituzionali</p>
-                    <p class="color-black justify p-section"><span class="bold">9.30</span> Mario Rossi, Prorettore Vicario Università di Città</p>
-                    <p class="color-black justify p-section">Mario Rossi, Direttore del Dipartimento y</p>
-                    <p class="color-black justify p-section margin-bottom-button">Mario Rossi, Presidente ABC</p>
-                    <p class="main-subtitle-enlarged no-margin-bottom"><span class="bold">Titolo del primo ciclo di lezioni</span></p>
-                    <p class="color-black justify p-section">Presiede <span class="bold">Mario Rossi</span></p>
-                    <p class="color-black justify p-section"><span class="bold">10.00</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">10.30</span> Mario Rossi - <span class="italic">Academic Event Template</span></p>
-                    <p class="color-black justify p-section"><span class="bold">11.00</span> Mario Rossi – <span class="italic">Academic Event Template</span></p>
-                    <p class="color-black justify p-section"><span class="bold">11.30</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">Coffee break</span></p>
-                    <p class="color-black justify p-section">Presiede <span class="bold">Mario Rossi</span></p>
-                    <p class="color-black justify p-section"><span class="bold">11.40</span> Mario Rossi - <span class="italic">Academic Event Template</span></p>
-                    <p class="color-black justify p-section"><span class="bold">12.00</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">12.20</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">12.40</span> Mario Rossi - <span class="italic">Academic Event Template</span></p>
+        </div>
+    </div>
+    <!-- Relatori -->
+    <div class="container-fluid background-gray padding-section no-padding-top">
+        <div class="container">
+            <!-- Hosts -->
+            <div class="active sec-speaker row" data-content="hosts">
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <ul class="p-list">
+                        <li data-target="tomasi">Francesca Tomasi</li>
+                        <li data-target="gangemi">Aldo Gangemi</li>
+                        <li data-target="italia">Paola Italia</li>
+                        <li data-target="vitali">Fabio Vitali</li>
+                        <li data-target="peroni">Silvio Peroni</li>
+                        <li data-target="daquino">Marilena Daquino</li>
+                        <li data-target="bonora">Paolo Bonora</li>
+                    </ul>
                 </div>
-                <div class="col-md-6">
-                    <p class="main-subtitle-enlarged no-margin-bottom"><span class="bold">Titolo del secondo ciclo di lezioni</span></p>
-                    <p class="color-black justify p-section">Presiede <span class="bold">Mario Rossi</span></p>
-                    <p class="color-black justify p-section"><span class="bold">15.00</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">15.20</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">15.40</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">16.00</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">16.20</span> Mario Rossi - <span class="italic">Academic Event Template</span></p>
-                    <p class="color-black justify p-section"><span class="bold">16.40</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"></p>
-                    <p class="color-black justify p-section margin-bottom-button"><span class="bold">17.30</span> Tavola Rotonda: <span class="bold italic">Come valutare l'Academic Event Template?</span> <span class="bold">Coordina Mario Rossi</span> con con Mario Rossi, Mario Rossi, Mario Rossi, Mario Rossi.</p>
+                <!-- Profile -->
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <!-- Tomasi -->
+                    <div class="profile active" data-content="tomasi">
+                        <a href="" target="_blank">
+                            <div class="circle no-user" id="tomasi"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Francesca
+                                <br>Tomasi</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">University of
+                                Bologna, <a href="https://centri.unibo.it/dharc/en" target="_blank"
+                                    title="Link to DHARC website">/DH.arc</a></p>
+                    </div>
+                    <!-- Gangemi -->
+                    <div class="profile" data-content="gangemi">
+                        <a href="" target="_blank">
+                            <div class="circle no-user" id="gangemi"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Aldo
+                                <br>Gangemi</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">University of
+                                Bologna, <a href="https://centri.unibo.it/dharc/en" target="_blank"
+                                    title="Link to DHARC website">/DH.arc</a></p>
+                    </div>
+                    <!-- Italia -->
+                    <div class="profile" data-content="italia">
+                        <a href="" target="_blank">
+                            <div class="circle no-user" id="italia"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Paola<br>Italia</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">University of
+                                Bologna, <a href="https://centri.unibo.it/dharc/en" target="_blank"
+                                    title="Link to DHARC website">/DH.arc</a></p>
+                    </div>
+                    <!-- Vitali -->
+                    <div class="profile" data-content="vitali">
+                        <a href="" target="_blank">
+                            <div class="circle no-user" id="vitali"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Fabio<br>Vitali</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">University of
+                                Bologna, <a href="https://centri.unibo.it/dharc/en" target="_blank"
+                                    title="Link to DHARC website">/DH.arc</a></p>
+                    </div>
+                    <!-- Peroni -->
+                    <div class="profile" data-content="peroni">
+                        <a href="" target="_blank">
+                            <div class="circle no-user" id="peroni"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Silvio<br>Peroni</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">University of
+                                Bologna, <a href="https://centri.unibo.it/dharc/en" target="_blank"
+                                    title="Link to DHARC website">/DH.arc</a></p>
+                    </div>
+                    <!-- Daquino -->
+                    <div class="profile" data-content="daquino">
+                        <a href="" target="_blank">
+                            <div class="circle no-user" id="daquino"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Marilena<br>Daquino</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">University of
+                                Bologna, <a href="https://centri.unibo.it/dharc/en" target="_blank"
+                                    title="Link to DHARC website">/DH.arc</a></p>
+                    </div>
+                    <!-- Bonora -->
+                    <div class="profile" data-content="bonora">
+                        <a href="" target="_blank">
+                            <div class="circle no-user" id="bonora"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Paolo<br>Bonora</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">University of
+                                Bologna, <a href="https://centri.unibo.it/dharc/en" target="_blank"
+                                    title="Link to DHARC website">/DH.arc</a></p>
+                    </div>
+                </div>
+                <!-- Bio -->
+                <div class="col-md-6 col-sm-12 col-xs-12 justify">
+                    <!-- Tomasi -->
+                    <div class="p-subsection profile active" data-content="tomasi">
+                        Francesca Tomasi is associate professor in Archival Science, Bibliography and Librarianship at
+                        the Department of Classical Philology and Italian Studies in the University of Bologna, where
+                        she teaches Digital Humanities and Knowledge Organization. Her research is focused on semantic
+                        digital editions, digital libraries and digital historical archives, with a special attention to
+                        metadata, controlled vocabularies and ontologies for cultural heritage in the Semantic Web. She
+                        has been President of the Italian Association on Digital Humanities (Associazione Italiana di
+                        Informatica Umanistica e Cultura Digitale - AIUCD) and President of the BDU (Biblioteca di
+                        Discipline Umanistiche), the library of the School of Humanities in the University of Bologna.
+                        From 2018 she is co-Head of the Advanced Research Center for Digital Humanities (DH.ARC) and
+                        Head of the international master degree, that she has also founded, in Digital Humanities and
+                        Digital Knowledge (DHDK).
+                    </div>
+                    <!-- Gangemi -->
+                    <div class="p-subsection profile" data-content="gangemi">
+                        Coming soon!
+                    </div>
+                    <!-- Italia -->
+                    <div class="p-subsection profile" data-content="italia">
+                        Paola Italia teaches <span class="italic">Italian Philology and Scholarly Editing</span> at the
+                        University of Bologna. She
+                        has worked on various nineteenth- and twentieth-century authors and topics, with a particular
+                        focus on editions of paper and digital texts (<span class="italic">Editing Novecento</span>,
+                        Salerno, 2013; <span class="italic">Editing Duemila</span>,
+                        Salerno, 2020), authorial variants (<span class="italic">What is authorial philology?</span>
+                        OBP, Cambridge, 2021) and
+                        Creativity in Manuscripts (<a href="https://site.unibo.it/manoscrittidigitali/it"
+                            target="_blank"
+                            title="Link to Manoscritti digitali website">https://site.unibo.it/manoscrittidigitali/it</a>;
+                        <span class="italic">Authors at Work</span>, OBP,
+                        <span class="italic">forthcoming</span>). In Digital Humanities her domains of competence are in
+                        the field of <span class="italic">Textual
+                            Theory, Text modelling and encoding, Variants Mining, Authorial Knowledge Sites</span> (<a
+                            href="http://www.filologiadautore.it/wiki/index.php?title=Pagina_principale" target="_blank"
+                            title="Link to Wiki Gadda website">Wiki Gadda</a>,
+                        <a href="http://wikileopardi.altervista.org/wiki_leopardi/index.php?title=Wiki_Leopardi"
+                            target="_blank" title="Link to Wiki Leopardi website">Wiki Leopardi</a>, <a href=""
+                            target="_blank" title="Link to Leopardi Ecdosys website">Leopardi Ecdosys</a>,
+                        <a href="https://www.alessandromanzoni.org/" target="_blank"
+                            title="Link to Manzonionline website">Manzonionline</a>). She founded and directs the site
+                        <a href="http://www.filologiadautore.it/wp/" target="_blank"
+                            title="Link to filologia d'autore website">www.filologiadautore.it</a> (more than 800.000
+                        contact since 2010), and collaborates with <a
+                            href="https://centri.unibo.it/dharc/en/centre/centre-people" target="_blank"
+                            title="Link to DHARC website">DHARC</a>,
+                        where she coordinates the scholarly digital editions of Manzoni, with Francesca Tomasi and Fabio
+                        Vitali (<a href="http://projects.dharc.unibo.it/philoeditor/" target="_blank"
+                            title="Link to Philoeditor website">Philoeditor</a>) and, with Dario Brancato, of <a
+                            href="https://dharc-org.github.io/progetto-vasto/" target="_blank"
+                            title="Link to VASTO website">VASTO</a>.
+                    </div>
+                    <!-- Vitali -->
+                    <div class="p-subsection profile" data-content="vitali">
+                        Fabio Vitali is Full Professor in Computer Science at the Department of Computer Science and
+                        Engineering (DISI) of the University of Bologna. He holds a PhD in Computer and Law from the
+                        University of Bologna and has been working for a long time on digital document formats,
+                        hypertext systems, web technologies and usability and user experience design. He has been part
+                        of the W3C Working Group on XML Schema and is currently co-chair of the OASIS TC on LegalDocML.
+                        He is the main author of Italian and international standards on legislative XML such as
+                        NormeInRete, CEN Metalex and Akoma Ntoso, which became an OASIS standard in 2018. He teaches Web
+                        Technologies as well as Usability and User Experience Design at the Computer Science School and
+                        at the graduate course on Digital Humanities and Digital Knowledge of the University of Bologna.
+                    </div>
+                    <!-- Peroni -->
+                    <div class="p-subsection profile" data-content="peroni">
+                        I (ORCiD: <a href="https://orcid.org/0000-0003-0530-4305" target="_blank"
+                            title="Link to Peroni's ORCiD">0000-0003-0530-4305</a>) hold a Ph.D. degree in Computer
+                        Science and I am an Associate
+                        Professor at the <a href="https://ficlit.unibo.it/it" target="_blank"
+                            title="Link to Department of Classical Philology and Italian Studies, University of Bologna, website">Department
+                            of Classical Philology and Italian Studies</a>, <a href="https://www.unibo.it/en"
+                            target="_blank" title="Link to University of Bologna website">University of Bologna</a>,
+                        where I <a href="https://www.unibo.it/sitoweb/silvio.peroni/teachings" target="_blank"
+                            title="Peroni's teaching">teach</a> <span class="italic">Basic Informatics</span>
+                        (Bachelor’s degree in <a href="https://corsi.unibo.it/1cycle/Humanities" target="_blank"
+                            title="Link to Bachelor in Humanities website">Humanities</a>),
+                        <span class="italic">Computational Thinking and
+                            Programming, Data Science and Open Science</span> (Master’s degree in <a
+                            href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank"
+                            title="Link to the Second Cycle Degree in DHDK website">Digital Humanities and Digital
+                            Knowledge</a>). I am an expert in document markup and semantic descriptions of bibliographic
+                        entities using OWL ontologies. I am one of the main developers of the <a
+                            href="http://www.sparontologies.net/" target="_blank"
+                            title="Link to SPAR Ontologies website">SPAR (Semantic Publishing
+                            and Referencing) Ontologies</a>, Director (with <a href="https://twitter.com/dshotton"
+                            title="Link to David Shotton's Twitter profile">David Shotton</a>) of <a
+                            href="http://opencitations.net/" target="_blank"
+                            title="Link to OpenCitations website">OpenCitations</a>, and
+                        founding member
+                        of the <a href="https://i4oc.org/" target="_blank"
+                            title="Link to Initiative for Open Citations website">Initiative for Open Citations
+                            (I4OC)</a> and the <a href="https://i4oa.org/" target="_blank"
+                            title="Link to Initiative for Open Abstracts website">Initiative for Open Abstracts
+                            (I4OA)</a>. Among
+                        my research interests are Semantic Web technologies, markup languages for complex documents,
+                        design patterns for digital documents and ontology modelling, and automatic processes of
+                        analysis and segmentation of documents. My works concern theoretical studies and technical
+                        implementation of tools to foster semantic interoperability of Open Science services and
+                        infrastructures, the empirical analysis of the nature of scholarly citations, bibliometrics and
+                        scientometrics studies, visualisation and browsing interfaces for semantic data, and the
+                        development of ontologies to manage, integrate and query bibliographic information.
+                    </div>
+                    <!-- Daquino -->
+                    <div class="p-subsection profile" data-content="daquino">
+                        Marilena Daquino is Assistant Professor at the University of Bologna and an active member of the
+                        Dh.arc research center. She has a PhD in Library and Information Science + Computer Science. Her
+                        research focuses on the application of Semantic Web technologies to art historical data. She
+                        collaborated with the Federico Zeri photo archive for several years and she has been active in
+                        international communities such as PHAROS and Linked.art. Currently, she is involved in the
+                        Polifonia H2020 project, wherein she contributes to the design and development of solutions for
+                        Linked Data production and Linked Data analysis, visualization, and storytelling.
+                    </div>
+                    <!-- Bonora -->
+                    <div class="p-subsection profile" data-content="bonora">
+                        Paolo Bonora graduated in Performing Arts from the University of Bologna and received his
+                        Master’s degree in Digital Humanities from the University of Florence. From 2016 to 2020, he
+                        attended the doctoral program in Cultural Heritage Studies at the University of Bologna where he
+                        wrote his dissertation on the adoption of Semantic Web technologies and Linked Data principles
+                        to manage historical information about opera. Since 2005, he has collaborated with the Corago
+                        project, the Italian Melodramma Digital Archive, supporting conceptual modelling and software
+                        development. In 2021 he was Digital Humanities Fellow at I Tatti, The Harvard University Center
+                        for Italian Renaissance Studies.
+                    </div>
                 </div>
             </div>
-            <!-- Secondo giorno -->
-            <div class="row 2nd-day-program" style="display: none;">
-                <div class="col-md-12">
-                    <p class="main-subtitle-enlarged center-text"><span class="bold">Titolo del terzo ciclo di lezioni</span></p>
+            <!-- Guests -->
+            <div class="sec-speaker row" data-content="guests">
+                <div class="col-md-2 col-sm-12 col-xs-12">
+                    <ul class="p-list">
+                        <li data-target="beretta">Francesco Beretta</li>
+                        <li data-target="hiltmann">Torsten Hiltmann</li>
+                        <li data-target="ciula">Arianna Ciula</li>
+                        <li data-target="donig">Simon Donig</li>
+                        <li data-target="scheltjens">Werner Scheltjens</li>
+                        <li data-target="alamercery">Vincent Alamercery</li>
+                        <li data-target="derks">Sebastiaan Derks</li>
+                        <li data-target="van-den-heuvel">Charles van den Heuvel</li>
+                    </ul>
                 </div>
-            </div>
-            <div class="row 2nd-day-program" style="display: none;">
-                <div class="col-md-6">
-                    <p class="color-black justify p-section">Presiede <span class="bold">Mario Rossi</span></p>
-                    <p class="color-black justify p-section"><span class="bold">9.00</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">9.30</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">10.00</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">10.30</span> Mario Rossi - <span class="italic">Academic Event Template</span></p>
+                <!-- Profile -->
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <!-- Beretta -->
+                    <div class="profile active" data-content="beretta">
+                        <a href="http://larhra.ish-lyon.cnrs.fr/membre/76" target="_blank">
+                            <div class="circle no-user" id="beretta"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Francesco
+                                <br>Beretta</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">CNRS, <a
+                                    href="http://larhra.ish-lyon.cnrs.fr/" target="_blank">LARHRA</a></p>
+                    </div>
+                    <!-- Hiltmann -->
+                    <div class="profile" data-content="hiltmann">
+                        <a href="https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/personen/torsten-hiltmann"
+                            target="_blank">
+                            <div class="circle no-user" id="hiltmann"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Torsten
+                                <br>Hiltmann</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Humboldt-Universität zu Berlin, <a
+                                    href="https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history"
+                                    target="_blank">Digital History</a></p>
+                    </div>
+                    <!-- Ciula -->
+                    <div class="profile" data-content="ciula">
+                        <a href="https://kdl.kcl.ac.uk/who-we-are/dr-arianna-ciula/" target="_blank">
+                            <div class="circle no-user" id="ciula"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Arianna<br>Ciula</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">King's College
+                                London, <a href="https://kdl.kcl.ac.uk/" target="_blank">King's Digital Lab</a></p>
+                    </div>
+                    <!-- Donig -->
+                    <div class="profile" data-content="donig">
+                        <a href="https://neoclassica.fim.uni-passau.de/team/simon-donig/" target="_blank">
+                            <div class="circle no-user" id="donig"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Simon<br>Donig</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Universität
+                                Passau, <a href="https://neoclassica.fim.uni-passau.de/" target="_blank">Neoclassica</a>
+                        </p>
+                    </div>
+                    <!-- Scheltjens -->
+                    <div class="profile" data-content="scheltjens">
+                        <a href="https://www.uni-bamberg.de/digihist/" target="_blank">
+                            <div class="circle no-user" id="scheltjenss"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Werner<br>Scheltjenss</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Otto-Friedrich-Universität Bamberg, <a
+                                    href="https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history"
+                                    target="_blank">Digital History</a></p>
+                    </div>
+                    <!-- Alamercery -->
+                    <div class="profile" data-content="alamercery">
+                        <a href="https://www.uni-bamberg.de/digihist/" target="_blank">
+                            <div class="circle no-user" id="alamercery"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Vincent<br>Alamercery</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">École normale
+                                supérieure de Lyon, <a href="http://larhra.ish-lyon.cnrs.fr/" target="_blank">LARHRA</a>
+                        </p>
+                    </div>
+                    <!-- Derks -->
+                    <div class="profile" data-content="derks">
+                        <a href="https://www.uni-bamberg.de/digihist/" target="_blank">
+                            <div class="circle no-user" id="derks"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span
+                                class="bold">Sebastiaan<br>Derks</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold"><a
+                                    href="https://www.huygens.knaw.nl/" target="_blank">Huygens ING</a>
+                        </p>
+                    </div>
+                    <!-- van den Heuvel -->
+                    <div class="profile" data-content="van-den-heuvel">
+                        <a href="https://www.huygens.knaw.nl/medewerkers/charles-van-den-heuvel/" target="_blank">
+                            <div class="circle no-user" id="heuvel"></div>
+                        </a>
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Charles<br> van
+                                den Heuvel</span></p>
+                        <hr class="color-red hr-circle">
+                        <p class="center-text color-black no-margin-top p-section"><span class="bold"><a
+                                    href="https://neoclassica.fim.uni-passau.de/" target="_blank">Huygens ING</a></p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <p class="color-black justify p-section">Presiede <span class="bold">Mario Rossi</span></p>
-                    <p class="color-black justify p-section"><span class="bold">11.15</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">11.45</span> Mario Rossi - <a href="https://martinadellobuono.github.io/academicevent-template/" class="color-dimgray underline italic" target="_blank">Academic Event Template</a></p>
-                    <p class="color-black justify p-section"><span class="bold">12.15</span> Mario Rossi – <span class="italic">Academic Event Template</span></p>
-                    <p class="color-black justify p-section"><span class="bold">12.45</span> Mario Rossi - <span class="italic">Academic Event Template</span></p>
+                <!-- Bio -->
+                <div class="col-md-6 col-sm-12 col-xs-12 justify">
+                    <!-- Beretta -->
+                    <div class="p-subsection profile active" data-content="beretta">
+                        Francesco Beretta is CNRS research fellow since 2005. He co-founded and headed from 2009 to 2020
+                        the
+                        Digital History Research Team within the Laboratoire de recherche historique Rhône-Alpes (LARHRA
+                        CNRS UMR 5190 – Universités de Lyon et Grenoble). Specialist in the history of Roman
+                        Inquisition, in
+                        the intellectual history of catholicism and the history of science, he has taught at different
+                        universities in Fribourg (Switzerland) (venia legendi 1999), Lausanne, Paris (EPHE, EHESS),
+                        Lyon. In
+                        digital humanities, his domains of competence are in the field of data modeling, ontologies,
+                        relational databases, GIS and semantic text encoding in XML/TEI. He is lecturer in digital
+                        methodology for historical research at University of Neuchâtel (Switzerland). He contributed
+                        significantly to the establishment of the <a href="http://symogih.org/" target="_blank"
+                            title="Link to symogih.org">symogih.org</a> and <a href="http://dataforhistory.org/"
+                            target="_blank" title="Link to Data for History website">Data for History</a> projects and
+                        is
+                        co-founder of the <a href="https://kleiolab.ch/" target="_blank"
+                            title="Link to KleioLab website">KleioLab company</a> that has developed <a
+                            href="https://www.geovistory.com/home" target="_blank"
+                            title="Link to Geovistory">Geovistory</a>, a virtual
+                        research environment for
+                        the humanities and social sciences. Some <a
+                            href="https://halshs.archives-ouvertes.fr/search/index/q/%2A/authIdHal_s/francesco-beretta/sort/producedDate_tdate+desc/"
+                            target="_blank" title="Link to the recent publication">recent publications</a> are listed on
+                        HalSHS.
+                    </div>
+                    <!-- Hiltmann -->
+                    <div class="p-subsection profile" data-content="hiltmann">
+                        Torsten Hiltmann is professor of Digital History at Humboldt-University zu Berlin since 2020.
+                        His research focuses on the integration of Machine Learning and Semantic Web Technologies into
+                        historical studies and on the epistemological change of historical research through the
+                        application of digital methods, the critique of digital methods as well as on visual
+                        communication in the late medieval and early modern period. As a trained medievalist, his
+                        dissertation dealt with heralds’ compendia on courtly culture from Late medieval France and
+                        Burgundy. He heads the research project "Coats of arms in practice" which currently develops an
+                        ontology for medieval heraldry and its use in different contexts.
+                    </div>
+                    <!-- Ciula -->
+                    <div class="p-subsection profile" data-content="ciula">
+                        Arianna is Director (2022-2026) and Senior Research Software Analyst (2017-present) at King’s
+                        Digital Lab (KDL). KDL is a Research Software Engineering (RSE) team of 13 staff hosted by the
+                        Faculty of Arts & Humanities at King’s College London (KCL &lt; UK). In operation since 2015,
+                        the
+                        Lab is one of a handful of digital humanities labs with significant research software
+                        engineering capacity worldwide. Arianna has broad experience in digital humanities research
+                        and teaching, research management, and digital research infrastructures. She holds a PhD in
+                        Manuscript and Book Studies (digital palaeography, University of Siena), an MA in Applied
+                        Computing in the Humanities (KCL) and a BA Hons in Communication sciences (computational
+                        linguistics, University of Siena). Her personal research interests focus on the modelling of
+                        scholarly digital resources related to primary sources. She was co-PI in the project
+                        ‘Modelling between Digital and Humanities: Thinking in Practice’. See list of publications.
+                    </div>
+                    <!-- Donig -->
+                    <div class="p-subsection profile" data-content="donig">
+                        Coming soon!
+                    </div>
+                    <!-- Scheltjens -->
+                    <div class="p-subsection profile" data-content="scheltjens">
+                        Werner Scheltjens studied East European Languages and Cultures at the University of Louvain. He
+                        obtained his PhD in History at the University of Groningen in 2008 and held postdoctoral
+                        positions in Maritime and Early Modern History at the University of Nice/ENS de Lyon and at the
+                        University of Groningen. He was appointed Assistant Professor at the Chair of Social and
+                        Economic History of the University of Leipzig in 2013 and obtained his Habilitation in Economic
+                        History and East European History in 2020. In 2021 he was appointed Professor of Digital History
+                        at the University of Bamberg. He specializes in digital research methods for non-narrative
+                        historical sources such as customs registers, all kinds of lists, dictionaries and newspapers
+                        (especially advertisements).
+                    </div>
+                    <!-- Alamercery -->
+                    <div class="p-subsection profile" data-content="alamercery">
+                        Vincent Alamercery is research assistant at École normale supérieure de Lyon, co-head of the
+                        Digital history research team of Laboratoire de recherche historique Rhône-Alpes (LARHRA). He
+                        studied history at Université Lumière Lyon 2 and holds a master degree in early and late modern
+                        history. He specialises in the development of tools and methods adapted to historical research
+                        in the context of the digital transition, around the central issue of geohistorical data
+                        modelling and ontologies. He is project manager of the ontology management environment OntoME
+                        (<a href="https://ontome.net/" target="_blank"
+                            title="Link to ontome.net">https://ontome.net</a>) and one of the LARHRA representative in
+                        the CIDOC CRM special interest
+                        group together with Francesco Beretta.
+                    </div>
+                    <!-- Derks -->
+                    <div class="p-subsection profile" data-content="derks">
+                        Sebastiaan Derks is Head of the Department of Data Management at the Huygens Institute for the
+                        History of the Netherlands. In this role, he directs a range of projects that focus on providing
+                        <a href="https://www.huygens.knaw.nl/resources/" target="_blank"
+                            title="Link to online resources and tools">online resources and tools</a> for humanities
+                        scholars. He studied Early Modern History at the
+                        Radboud University Nijmegen, the Netherlands. His research interests lie in the political
+                        culture of sixteenth-century Europe. He has held fellowships at the Royal Netherlands Institute
+                        in Rome and at the Center for Medieval and Renaissance Studies, University of California, Los
+                        Angeles. He is the co-editor of The Key to Power. The Culture of Access in Princely Courts,
+                        1400-1750 (Leiden-Boston: Brill, 2016).
+                    </div>
+                    <!-- van den Heuvel -->
+                    <div class="p-subsection profile" data-content="van-den-heuvel">
+                        Charles van den Heuvel is Head Research of the Department Knowledge and Art Practices of the
+                        Huygens Institute in Amsterdam and professor Digital Methods and Historical Disciplines at the
+                        University of Amsterdam. He has a background in history of art specialized in the history of
+                        town planning, fortification, and architecture of the Early Modern Period (16th-17th Centuries)
+                        and worked in several cultural heritage institutions. Recent research interests are digital
+                        humanities, history of knowledge (in particular of knowledge circulation in the Republic of
+                        Letters) and history of library and information sciences. Currently, he is the principal
+                        investigator of the NWO-Large Investment Project: <span class="italic">Golden Agents: Creative
+                            Industries and the
+                            Making of the Dutch Golden Age</span>, The NWO-Smart Culture, Big Data and Digital
+                        Humanities Project:
+                        Virtual Interiors as Interfaces for Big Historical Data Research and the NWO-NWA science
+                        communication project: <span class="italic">Through the lens of Antoni: How do you represent
+                            what you cannot see?</span>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Relatori -->
-        <div class="container-fluid background-gray padding-section no-padding-bottom" id="relatori">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="secondary-title color-black">Speakers</h2>
-                        <hr class="color-red hr-secondary margin-bottom-button">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Relatori -->
-        <div class="container-fluid background-gray padding-section no-padding-top">
-            <div class="container">
-                <!-- Multiply this row until you reach the right numer of your lecturers -->
-                <div class="row">
-                    <!-- At line 199 put the URL of the lecturer's official page, remove no-user class in the following div if you have no lecturer's photo or, on the contrary, give it the id and associate the corresponding photo as image background in css to it -->
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <a href="http://larhra.ish-lyon.cnrs.fr/membre/76" target="_blank"><div class="circle no-user" id="beretta"></div></a>
-                        <!-- If you leave the br tag, all the hr will be aligned -->
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Francesco <br>Beretta</span></p>
-                        <hr class="color-red hr-circle">
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">CNRS, <a href="http://larhra.ish-lyon.cnrs.fr/" target="_blank">LARHRA</a></p>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <a href="https://kdl.kcl.ac.uk/who-we-are/dr-arianna-ciula/" target="_blank"><div class="circle no-user" id="ciula"></div></a>
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Arianna<br>Ciula</span></p>
-                        <hr class="color-red hr-circle">
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">King's College London, <a href="https://kdl.kcl.ac.uk/" target="_blank">King's Digital Lab</a></p>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <a href="https://neoclassica.fim.uni-passau.de/team/simon-donig/" target="_blank"><div class="circle no-user" id="donig"></div></a>
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Simon<br>Donig</span></p>
-                        <hr class="color-red hr-circle">
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Universität Passau, <a href="https://neoclassica.fim.uni-passau.de/" target="_blank">Neoclassica</a></p>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <a href="https://www.huygens.knaw.nl/medewerkers/charles-van-den-heuvel/" target="_blank"><div class="circle no-user" id="heuvel"></div></a>
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Charles<br> van den Heuvel</span></p>
-                        <hr class="color-red hr-circle">
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold"><a href="https://neoclassica.fim.uni-passau.de/" target="_blank">Huygens ING</a></p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <a href="https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/personen/torsten-hiltmann" target="_blank"><div class="circle no-user" id="hiltmann"></div></a>
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Torsten <br>Hiltmann</span></p>
-                        <hr class="color-red hr-circle">
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Humboldt-Universität zu Berlin, <a href="https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history" target="_blank">Digital History</a></p>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <a href="https://www.uni-bamberg.de/digihist/" target="_blank"><div class="circle no-user" id="scheltjenss"></div></a>
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Werner<br>Scheltjenss</span></p>
-                        <hr class="color-red hr-circle">
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Otto-Friedrich-Universität Bamberg, <a href="https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history" target="_blank">Digital History</a></p>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12">
-                        <a href="https://www.uni-bamberg.de/digihist/" target="_blank"><div class="circle no-user" id="tomasi"></div></a>
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">Francesca<br>Tomasi</span></p>
-                        <hr class="color-red hr-circle">
-                        <p class="center-text color-black no-margin-top p-section"><span class="bold">University of Bologna, <a href="https://centri.unibo.it/dharc/en" target="_blank">/DH.arc</a></p>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Collegati in streaming -->
-        <div class="container-fluid background-dimgray padding-section" id="collegati">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="secondary-title color-white">Registration</h2>
-                        <hr class="color-white hr-secondary margin-bottom-section">
-                        <p class="color-white center-text p-section margin-top-section">We kindly ask you to complete the following form to register your presence at the meeting. Furthermore, the meeting aims to be a space for discussion and debate on the topics of interest. For this reason in the form you will find a section dedicated to sending questions and discussion points that will be introduced during the second day of the meeting (8 June 2022).</p>
-                        <a href="https://github.com/martinadellobuono" class="color-dimgray no-underline" target="_blank" alt="Link al convegno virtuale"><button class="button-round-white center">Register</button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contatti -->
-        <div class="container padding-section" id="contatti">
+    </div>
+    <!-- Collegati in streaming -->
+    <div class="container-fluid background-dimgray padding-section" id="collegati">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="secondary-title color-black">Contacts</h2>
-                    <hr class="color-dimgray hr-secondary margin-bottom-section">
-                    <p class="color-black justify p-section">We remain at your disposal for any request. You can contact us at any time by leaving us a message, we will strive to provide you with accurate answers. In addition, we will not disclose your personal information.</p>
-                    <p class="color-black justify p-section">Leave us a message without fearing for your privacy! Privacy is very important to us and we are committed to not disclosing your information. For more information you can see our <a href="https://www.unibo.it/it/ateneo/privacy-e-note-legali" class="bold color-dimgray underline" target="_blank" id="privacy-button">privacy policy</a>.</p>
+                    <h2 class="secondary-title color-white">Registration</h2>
+                    <hr class="color-white hr-secondary margin-bottom-section">
+                    <p class="color-white center-text p-section margin-top-section">We kindly ask you to complete
+                        the
+                        following form to register your presence at the meeting. Furthermore, the meeting aims to be
+                        a
+                        space for discussion and debate on the topics of interest. For this reason in the form you
+                        will
+                        find a section dedicated to sending questions and discussion points.</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSescJkXVSDbl5B6e7QTT3hZZhqEnI8PiGHYLsMJGPLWJFxAOQ/viewform"
+                        class="color-dimgray no-underline" target="_blank" alt="Register"><button
+                            class="button-round-white center">Register</button></a>
                 </div>
             </div>
-            <!--<div class="row" id="privacy-info" style="display: none;">      // Non cancellare, può servire per altri progetti
+        </div>
+    </div>
+    <!-- Contatti -->
+    <div class="container padding-section" id="contatti">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="secondary-title color-black">Contacts</h2>
+                <hr class="color-dimgray hr-secondary margin-bottom-section">
+                <p class="color-black justify p-section">We remain at your disposal for any request. You can contact
+                    us
+                    at any time by leaving us a message, we will strive to provide you with accurate answers. In
+                    addition, we will not disclose your personal information.</p>
+                <p class="color-black justify p-section">Leave us a message without fearing for your privacy!
+                    Privacy is
+                    very important to us and we are committed to not disclosing your information. For more
+                    information
+                    you can see our <a href="https://www.unibo.it/it/ateneo/privacy-e-note-legali"
+                        class="bold color-dimgray underline" target="_blank" id="privacy-button">privacy policy</a>.
+                </p>
+            </div>
+        </div>
+        <div class="row margin-top-section">
+            <p class="main-subtitle-enlarged no-margin-bottom">Leave a message to <a href="mailto:evento2020@gmail.com"
+                    class="color-dimgray font-mail" target="_top">evento@gmail.com</a></p>
+        </div>
+    </div>
+    <!-- Pre-footer -->
+    <div class="container-fluid background-gray padding-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 brand"><a href="https://ficlit.unibo.it/it"
+                        alt="Link al sito web del Dipartimento di Filologia Classica e Italianistica di Alma Mater Studiorum-Università di Bologna"
+                        target="_blank"><img src="img/logo-unibo-brand.png" class="center"></a></div>
+                <div class="col-md-3 brand"><a
+                        href="https://ficlit.unibo.it/it/dipartimento/premi-e-riconoscimenti/dipartimento-di-eccellenza"
+                        alt="Link al sito web del Dipartimento di eccellenza MIUR di Filologia Classica e Italianistica di Alma Mater Studiorum-Università di Bologna"
+                        target="_blank"><img src="img/logo-eccellenza.png" class="center"></a></div>
+                <div class="col-md-3 brand"><a href="http://dataforhistory.org/" alt="Link to Data for History website"
+                        target="_blank"><img src="img/data4history-brand.png" class="center"></a></div>
+                <div class="col-md-3 brand"><a href="https://centri.unibo.it/dharc/en" alt="Link al sito web di DHarc"
+                        target="_blank"><img src="img/dharc-logo.png" class="center"></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid background-black section-pre-footer">
+        <div class="container">
+            <div class="row">
                 <div class="col-md-12">
-                    <h2 class="secondary-title color-black">Informativa sulla privacy</h2>
-                    <p class="color-black justify p-section">La tua privacy è molto importante per noi. Di conseguenza, abbiamo sviluppato questa Politica per farvi capire come raccogliamo, usiamo, comunichiamo e divulghiamo e facciamo uso di informazioni personali. Proteggiamo le informazioni personali mediante ragionevoli misure di sicurezza contro la perdita o il furto, nonché l'accesso non autorizzato, la divulgazione, la copia, l'uso o la modifica.</p>
-                </div>
-            </div>-->
-            <div class="row margin-top-section">
-                <p class="main-subtitle-enlarged no-margin-bottom">Leave a message to <a href="mailto:evento2020@gmail.com" class="color-dimgray font-mail" target="_top">evento@gmail.com</a></p>
-            </div>
-        </div>
-        <!-- Pre-footer -->
-        <div class="container-fluid background-gray padding-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 brand"><a href="https://ficlit.unibo.it/it" alt="Link al sito web del Dipartimento di Filologia Classica e Italianistica di Alma Mater Studiorum-Università di Bologna" target="_blank"><img src="img/logo-unibo-brand.png" class="center"></a></div>
-                    <div class="col-md-3 brand"><a href="https://ficlit.unibo.it/it/dipartimento/premi-e-riconoscimenti/dipartimento-di-eccellenza" alt="Link al sito web del Dipartimento di eccellenza MIUR di Filologia Classica e Italianistica di Alma Mater Studiorum-Università di Bologna" target="_blank"><img src="img/logo-eccellenza.png" class="center"></a></div>
-                    <div class="col-md-3 brand"><a href="https://www.italianisti.it/" alt="Link al sito web di ADI" target="_blank"><img src="img/adi-logo.png" class="center"></a></div>
-                    <div class="col-md-e brand"><a href="https://centri.unibo.it/dharc/en" alt="Link al sito web di DHarc" target="_blank"><img src="img/dharc-logo.png" class="center"></a></div>
+                    <h2 class="pre-footer-title color-white margin-bottom-button">Data for History - Annual meeting,
+                        Univesity of Bologna 07-08 June 2022</h2>
+                    <h2 class="pre-footer-subtitle color-white margin-bottom-button">Scientific Committee</h2>
+                    <p class="pre-footer-p color-white">Francesco Beretta, Arianna Ciula, Simon Donig, Charles van
+                        den
+                        Heuvel, Torsten Hiltmann, Werner Scheltjens, Francesca Tomasi </p>
+                    <h2 class="pre-footer-subtitle color-white margin-bottom-button">Administrative office</h2>
+                    <p class="pre-footer-p color-white"><a href="https://www.unibo.it/sitoweb/martina.dellobuono2"
+                            target="_blank" title="Martina Dello Buono website">Martina Dello Buono</a>, <a
+                            href="https://www.unibo.it/sitoweb/valentina.pasqual2" target="_blank"
+                            title="Valentina Pasqual website">Valentina Pasqual</a></p>
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <div class="container-fluid background-black section-pre-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="pre-footer-title color-white margin-bottom-button">Data for History - Annual meeting, Univesity of Bologna 06-07 June 2022</h2>
-                        <h2 class="pre-footer-subtitle color-white margin-bottom-button">Scientific Committee</h2>
-                        <p class="pre-footer-p color-white">Francesco Beretta, Arianna Ciula, Simon Donig, Charles van den Heuvel, Torsten Hiltmann, Werner Scheltjens, Francesca Tomasi </p>
-                        <h2 class="pre-footer-subtitle color-white margin-bottom-button">Administrative office</h2>
-                        <p class="pre-footer-p color-white">[TBD]</p>
-                    </div>
+    </div>
+    <!-- Copyright -->
+    <div class="container-fluid background-red">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Insert the copyright suitable for your interests -->
+                    <h2 class="color-white copyright-title section-copyright">© Copyright 2022 Data for History
+                        meeting
+                        2022, University of Bologna</h2>
                 </div>
             </div>
         </div>
-        <!-- Copyright -->
-        <div class="container-fluid background-red">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- Insert the copyright suitable for your interests -->
-                        <h2 class="color-white copyright-title section-copyright">© Copyright 2022 Data for History meeting 2022, University of Bologna</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- Main js -->
+    <script src="main.js"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/5ab590d7bf.js" crossorigin="anonymous"></script>
+</body>
 
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Bootstrap js-->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <!-- Main js -->
-        <script src="main.js"></script>
-        <!-- Fontawesome -->
-        <script src="https://kit.fontawesome.com/5ab590d7bf.js" crossorigin="anonymous"></script>
-    </body>
 </html>

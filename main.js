@@ -5,6 +5,8 @@ jQuery(document).ready(function($) {
     scopriDiPiu();
     seeDayProgram();
     //privacy();
+    hostsOrGuests();
+    speakers();
 });
 
 // Logo hide while scrolling the page and show at the beginning of the page
@@ -17,7 +19,7 @@ function navScroll() {
     })
 }
 
-// Dynamic active class on navbar items while scrolling the page ...I can do better, so do you!
+// Dynamic active class on navbar items while scrolling the page
 function activeMove() {
     var heightHome = $("#home").offset().top;
     var heightAbout = $("#about").offset().top;
@@ -78,8 +80,6 @@ function activeMove() {
 function navItems() {
     $(".nav-item").click(function() {
         var divItem = $(this).attr("value");
-        //$("a[value!='" + divItem + "']").parent().removeClass("active");  // non cancellare, potrebbe servire in altri progetti
-        //$("a[value='" + divItem + "']").parent().addClass("active");
         $("html, body").animate({
             scrollTop: $("#" + divItem).offset().top + 1
           }, 800
@@ -97,7 +97,7 @@ function scopriDiPiu() {
     })
 }
 
-// Buttons to show different days of a programm ...I can do better and more "abstract", but I had no time! Make it better :)
+// Buttons to show different days of a program
 function seeDayProgram() {
     $("#1st-program").click(function() {
         $(".1st-day-program").show();
@@ -133,3 +133,30 @@ function copyURL() {
 function outFunc() {
     document.getElementById("copiedAlert").style.display = "none";
 }
+
+// Speakers hosts and guests
+let hostsOrGuests = () => {
+    $(".sec-speaker").not(".active").hide();
+    $(".btn-speaker").on("click", function() {
+        var type = $(this).data("target");
+        $(".sec-speaker[data-content='" + type + "']").show().addClass("active");
+        $(".sec-speaker[data-content!='" + type + "']").hide().removeClass("active");
+        $(".sec-speaker[data-content='" + type + "']").find("li[data-target]:first").click();
+        $(".btn-speaker[data-target='" + type + "']").addClass("button-round-dimgray").removeClass("button-round-empty-dimgray");
+        $(".btn-speaker[data-target!='" + type + "']").removeClass("button-round-dimgray").addClass("button-round-empty-dimgray");
+    });
+};
+
+// Speakers profile
+let speakers = () => {   
+    $(".profile").not(".active").hide();
+    var activeSpeaker = $(".profile.active").data("content");
+    $("li[data-target='" + activeSpeaker + "']").addClass("bold");
+    $("li[data-target]").on("click", function() {
+        var speaker = $(this).data("target");
+        $(".profile[data-content='" + speaker + "']").show().addClass("active");
+        $(".profile[data-content!='" + speaker + "']").hide().removeClass("active");
+        $("li[data-target='" + speaker + "']").addClass("bold");
+        $("li[data-target!='" + speaker + "']").removeClass("bold");
+    });
+};
