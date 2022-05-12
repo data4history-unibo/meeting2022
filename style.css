@@ -111,6 +111,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .button-round-empty {background-color: transparent; border: 1px solid #AC3720; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-dimgray {background-color: #4B7781; border: 1px solid #4B7781; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-empty-dimgray {background-color: transparent; border: 1px solid #4B7781; border-radius: 37px; color: #4B7781; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-red {background-color: #AC3720; border: 1px solid #AC3720; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-empty-red {background-color: transparent; border: 1px solid #AC3720; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #4B7781; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-white:hover {background-color: #4B7781; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 
