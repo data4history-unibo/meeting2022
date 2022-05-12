@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
     navScroll();
-    activeMove();
+    //activeMove();
     navItems();
     scopriDiPiu();
     seeDayProgram();
@@ -20,7 +20,7 @@ function navScroll() {
 }
 
 // Dynamic active class on navbar items while scrolling the page
-function activeMove() {
+/*function activeMove() {
     var heightHome = $("#home").offset().top;
     var heightAbout = $("#about").offset().top;
     var heightProgramma = $("#programma").offset().top;
@@ -74,7 +74,7 @@ function activeMove() {
             $(".contatti-li").addClass("active");
         }
     })
-}
+}*/
 
 // Navbar items click and scroll to corresponding id
 function navItems() {

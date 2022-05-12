@@ -23,6 +23,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .margin-bottom-button-half {margin-bottom: 2vh !important;}
 .margin-bottom-section {margin-bottom: 7vh;}
 .margin-top-section {margin-top: 7vh;}
+.mt-3 {margin-top: 3vh;}
 .no-margin-bottom {margin-bottom: 0 !important;}
 .no-margin-top {margin-top: 0 !important;}
 
@@ -42,8 +43,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Colors */
 .color-black {color: #343434;}
-.color-dimgray {color: #3A515F;}
-.color-red {color: #55111D;}
+.color-dimgray {color: #4B7781;}
+.color-red {color: #AC3720;}
 .color-white {color: #FEFEFE;}
 
 /* Font styles */
@@ -55,12 +56,12 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 @media only screen and (max-width: 320px) {.font-mail{font-size: 11px;}}
 @media only screen and (min-width: 321px) and (max-width: 767px) {.font-mail{font-size: 14px;}}
 /* Background colors */
-.background-black {background-color: #343434;}
-.background-dimgray {background-color: #3A515F;} /*#78A892*/
+/*.background-black {background-color: #343434;}*/
+.background-dimgray {background-color: #4B7781;}
 .background-gray {background-color: #EFF3F5;}
-.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;}
+/*.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;}*/
 @media only screen and (max-width: 1024px) {.background-hero {background-image: none; background-color: #E8E7F0;}}
-.background-red {background-color: #55111D;}
+.background-red {background-color: #AC3720;}
 .background-white {background-color: #FEFEFE;}
 
 /* Titles */
@@ -88,12 +89,12 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 /* Navbar */
 .nav a {color: #343434; cursor: pointer; font: 14px Raleway, sans-serif; letter-spacing: 2px; text-transform: uppercase;}
 @media only screen and (max-width: 1024px) {.nav a {font-size: 12px;}}
-.nav a:hover {color: #3A515F;}
-.active > a {background-color: transparent !important; color: #3A515F !important; font-weight: 600; text-shadow: 10px 10px 31px -2px rgba(179,177,179,0.77);}
-.navbar-brand {background-color: #E8E7F0; padding-top: 0 !important;}
-.navbar-brand > img {background-color: #E8E7F0; padding: 2vh;}
+.nav a:hover {color: #4B7781;}
+.active > a {background-color: transparent !important; color: #4B7781 !important; font-weight: 600; text-shadow: 10px 10px 31px -2px rgba(179,177,179,0.77);}
+.navbar-brand {background-color: #FFF; padding-top: 0 !important;}
+.navbar-brand > img {background-color: #FFF; height: 180px; padding: 2vh;}
 @media only screen and (max-width: 1024px) {.navbar-brand > img {display: none !important;}}
-.navbar-default {background-color: #E8E7F0 !important; background-image: none !important; border: 0 !important; box-shadow: none !important; -webkit-box-shadow: none !important;}
+.navbar-default {background-color: #FFF !important; background-image: none !important; border: 0 !important; box-shadow: none !important; -webkit-box-shadow: none !important;}
 .mobile-home {display: none;}
 @media only screen and (max-width: 1024px) {.mobile-home {display: block !important;}}
 @media only screen and (max-height: 415px) {.mobile-home-img {display: none;}}
@@ -105,13 +106,13 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .hr-secondary {border: 4px solid; width: 40%;}
 
 /* Button */
-.button-round {background-color: #55111D; border: 1px solid #55111D; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round:hover {background-color: transparent; border: 1px solid #55111D; border-radius: 37px; color: #55111D; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-empty {background-color: transparent; border: 1px solid #55111D; border-radius: 37px; color: #55111D; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-dimgray {background-color: #3A515F; border: 1px solid #3A515F; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-empty-dimgray {background-color: transparent; border: 1px solid #3A515F; border-radius: 37px; color: #3A515F; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #3A515F; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-white:hover {background-color: #3A515F; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round {background-color: #AC3720; border: 1px solid #AC3720; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round:hover {background-color: transparent; border: 1px solid #AC3720; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-empty {background-color: transparent; border: 1px solid #AC3720; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-dimgray {background-color: #4B7781; border: 1px solid #4B7781; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-empty-dimgray {background-color: transparent; border: 1px solid #4B7781; border-radius: 37px; color: #4B7781; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #4B7781; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white:hover {background-color: #4B7781; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 
 /* Cards */
 .circle {background-color: #bbb; border-radius: 50%; display: block; height: 15vh; margin: 20px auto; width: 15vh;}
@@ -143,3 +144,6 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Brand */
 @media only screen and (max-width: 1024px) {.brand {margin-top: 2vh;}}
+
+/* Mail */
+.mail {font: 15px Raleway, sans-serif; vertical-align: top;}
