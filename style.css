@@ -74,7 +74,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .main-title {font: 65px Raleway, sans-serif; text-align: center; text-transform: uppercase; line-height: 65px; color: #343434;}
 @media only screen and (max-width: 767px) {.main-title {font-size: 35px; line-height: 40px;}}
 @media only screen and (max-height: 415px) {.main-title {font-size: 30px;}}
-.main-subtitle-enlarged {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center; text-transform: uppercase; line-height: 65px; color: #343434;}
+.main-subtitle-enlarged {font: 25px Raleway, sans-serif; letter-spacing: 2px; text-align: center; line-height: 65px; color: #343434;}
 @media only screen and (max-width: 767px) {.main-subtitle-enlarged {font-size: 21px; line-height: 30px;}}
 @media only screen and (max-height: 415px) {.main-subtitle-enlarged {font-size: 18px;}}
 .main-subtitle {font: 21px Raleway, sans-serif; letter-spacing: 2px; text-align: center; color: #343434;}
