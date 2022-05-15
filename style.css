@@ -24,6 +24,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .margin-bottom-section {margin-bottom: 7vh;}
 .margin-top-section {margin-top: 7vh;}
 .mt-3 {margin-top: 3vh;}
+.mt-4 {margin-top: 4vh;}
 .no-margin-bottom {margin-bottom: 0 !important;}
 .no-margin-top {margin-top: 0 !important;}
 
@@ -46,6 +47,10 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .color-dimgray {color: #4B7781;}
 .color-red {color: #AC3720;}
 .color-white {color: #FEFEFE;}
+
+/* Links */
+.section-pre-footer a {color: #FEFEFE; text-decoration: underline;}
+.section-pre-footer a:hover {color: #CCCECF;}
 
 /* Font styles */
 .bold {font-weight: 600;}
@@ -82,7 +87,6 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Paragraphs */
 .pre-footer-p {font: 17px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6; text-align: center;}
-.p-list {font: 14px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
 .p-section {font: 18px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
 .p-subsection {font: 16px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
 
@@ -113,8 +117,13 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .button-round-empty-dimgray {background-color: transparent; border: 1px solid #4B7781; border-radius: 37px; color: #4B7781; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-red {background-color: #AC3720; border: 1px solid #AC3720; border-radius: 37px; color: #fff; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-empty-red {background-color: transparent; border: 1px solid #AC3720; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #4B7781; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
-.button-round-white:hover {background-color: #4B7781; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 20px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-round-white:hover {background-color: #AC3720; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+
+/* List */
+.p-list {font: 14px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
+.p-list li:hover {color: #4B7781;}
+.p-list li.bold {color: #4B7781;}
 
 /* Cards */
 .circle {background-color: #bbb; border-radius: 50%; display: block; height: 15vh; margin: 20px auto; width: 15vh;}
@@ -141,7 +150,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 #alamercery {background-image: url("http://larhra.ish-lyon.cnrs.fr/sites/default/files/styles/medium/public/va2020.jpg?itok=hL6tby3b"); background-size: cover; background-repeat: no-repeat;}
 #derks {background-image: url("https://0.academia-photos.com/7840760/2775157/3833074/s200_sebastiaan.derks.jpg"); background-size: cover; background-repeat: no-repeat;}
 
-/* Icone */
+/* Icons */
 .fa-copy:hover {color: #FEFEFE; font-size: 20px;}
 
 /* Brand */
