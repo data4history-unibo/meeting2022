@@ -84,6 +84,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 @media only screen and (max-width: 767px) {.secondary-title {font-size: 25px;}}
 @media only screen and (max-height: 415px) {.secondary-title {font-size: 15px;}}
 .thumbnail-title {font: 20px Raleway, sans-serif; font-weight: 600; letter-spacing: 2px;}
+.programme-title {font: 15px Raleway, sans-serif; letter-spacing: 2px; line-height: 65px; color: #343434; text-transform: uppercase;}
 
 /* Paragraphs */
 .pre-footer-p {font: 17px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6; text-align: center;}
