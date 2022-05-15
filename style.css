@@ -158,3 +158,6 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* Mail */
 .mail {font: 15px Raleway, sans-serif; vertical-align: top;}
+
+/* Papers section */
+.papers-sec {background: #FEFEFE; border-radius: 37px; padding: 3% 5%;}
