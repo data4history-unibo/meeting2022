@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-    navScroll();
+    //navScroll();
     navItems();
     activeNav();
     scopriDiPiu();
@@ -10,14 +10,14 @@ jQuery(document).ready(function($) {
 });
 
 // Logo hide while scrolling the page and show at the beginning of the page
-function navScroll() {
+/*function navScroll() {
     $(window).scroll(function() {
         $(".navbar-brand > img").hide();
         if ($(window).scrollTop() < 50) {
             $(".navbar-brand > img").show();
         }
     })
-}
+}*/
 
 // Navbar items click and scroll to corresponding id
 let navItems = () => {
