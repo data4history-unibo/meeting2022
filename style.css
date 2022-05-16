@@ -165,41 +165,35 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
 /* MOBILE OPTIMIZATION */
 @media (max-width: 961px) {
-
     /* Logo */
     img.mobile-home-img.center {height: 20%; width: auto;}
-
     /* Subtitle */
     .main-subtitle {font-size: 16px;}
     .secondary-title {font-size: 22px;}
-
     /* Subtitle enlarged */
     .main-subtitle-enlarged {font-size: 19px; line-height: 25px; padding: 3%;}
-
     /* Cards */
     .thumbnail {height: 32vh;}
-
     /* Circles */
     .circle {height: 20vh; width: 20vh;}
-
     /* Lists */
     .p-list {background: #FEFEFE; border-radius: 37px; padding: 7%; padding-left: 15%;}
-
     /* Papers */
     .papers-sec {padding: 7%;}
-
     /* Mail */
     .font-mail {font-size: 20px;}
-
     /* Pre-footer title */
     .pre-footer-title {font-size: 16px;}
-
     /* Pre-footer subtitle */
     .pre-footer-subtitle {font-size: 15px;}
-
     /* Pre-footer p */
     .pre-footer-p {font-size: 14px;}
-
 }
 
 /* galaxy fold min-width 279px */
+@media (max-width: 281px) {
+    /* Main title */
+    .main-title {font-size: 30px;}
+    /* Mail */
+    .font-mail {font-size: 15px;}
+}
