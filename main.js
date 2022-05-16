@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
     navScroll();
-    //activeMove();
     navItems();
+    activeNav();
     scopriDiPiu();
     seeDayProgram();
     //privacy();
@@ -19,73 +19,36 @@ function navScroll() {
     })
 }
 
-// Dynamic active class on navbar items while scrolling the page
-/*function activeMove() {
-    var heightHome = $("#home").offset().top;
-    var heightAbout = $("#about").offset().top;
-    var heightProgramma = $("#programma").offset().top;
-    var heightRelatori = $("#relatori").offset().top;
-    var heightCollegati = $("#collegati").offset().top;
-    var heightContatti = $("#contatti").offset().top;
-    $(window).scroll(function() {
-        var windowPos = window.pageYOffset;
-        if (windowPos > heightHome) {
-            $(".home-li").addClass("active");
-            $(".about-li").removeClass("active");
-            $(".programma-li").removeClass("active");
-            $(".relatori-li").removeClass("active");
-            $(".collegati-li").removeClass("active");
-            $(".contatti-li").removeClass("active");
-        } 
-        if (windowPos > heightAbout) {
-            $(".home-li").removeClass("active");
-            $(".about-li").addClass("active");
-            $(".programma-li").removeClass("active");
-            $(".relatori-li").removeClass("active");
-            $(".collegati-li").removeClass("active");
-            $(".contatti-li").removeClass("active");
-        } 
-        if (windowPos > heightProgramma) {
-            $(".about-li").removeClass("active");
-            $(".programma-li").addClass("active");
-            $(".relatori-li").removeClass("active");
-            $(".collegati-li").removeClass("active");
-            $(".contatti-li").removeClass("active");
-        }
-        if (windowPos > heightRelatori) {
-            $(".about-li").removeClass("active");
-            $(".programma-li").removeClass("active");
-            $(".relatori-li").addClass("active");
-            $(".collegati-li").removeClass("active");
-            $(".contatti-li").removeClass("active");
-        }
-        if (windowPos > heightCollegati) {
-            $(".about-li").removeClass("active");
-            $(".programma-li").removeClass("active");
-            $(".relatori-li").removeClass("active");
-            $(".collegati-li").addClass("active");
-            $(".contatti-li").removeClass("active");
-        }
-        if (windowPos > heightContatti) {
-            $(".about-li").removeClass("active");
-            $(".programma-li").removeClass("active");
-            $(".relatori-li").removeClass("active");
-            $(".collegati-li").removeClass("active");
-            $(".contatti-li").addClass("active");
-        }
-    })
-}*/
-
 // Navbar items click and scroll to corresponding id
-function navItems() {
+let navItems = () => {
     $(".nav-item").click(function() {
+        var navItem = $(this).parent();
         var divItem = $(this).attr("value");
         $("html, body").animate({
             scrollTop: $("#" + divItem).offset().top + 1
           }, 800
         )
+        $(".nav-li").removeClass("active");
+        $(navItem).addClass("active");
     })
 }
+
+// Dynamic active class on navbar items while scrolling the page
+let activeNav = () => {
+    $(window).scroll(function() {
+        var posWin = window.pageYOffset;
+        $(".nav-item").each(function() {
+            var navItem = $(this).parent();
+            var idSec = $(this).attr("value");
+            var posSec = $("#" + idSec).offset().top; 
+            var sec = $("#" + idSec);
+            if (posWin > posSec) {
+                $(".nav-li").removeClass("active");
+                $(navItem).addClass("active");
+            };
+        });
+    });
+};
 
 // Learn more - Scopri di più button
 function scopriDiPiu() {
