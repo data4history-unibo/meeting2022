@@ -171,12 +171,16 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 
     /* Subtitle */
     .main-subtitle {font-size: 16px;}
+    .secondary-title {font-size: 22px;}
 
     /* Subtitle enlarged */
     .main-subtitle-enlarged {font-size: 19px; line-height: 25px; padding: 3%;}
 
     /* Cards */
     .thumbnail {height: 32vh;}
+
+    /* Circles */
+    .circle {height: 20vh; width: 20vh;}
 
     /* Mail */
     .font-mail {font-size: 20px;}
