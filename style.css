@@ -182,6 +182,12 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
     /* Circles */
     .circle {height: 20vh; width: 20vh;}
 
+    /* Lists */
+    .p-list {background: #FEFEFE; border-radius: 37px; padding: 7%; padding-left: 15%;}
+
+    /* Papers */
+    .papers-sec {padding: 7%;}
+
     /* Mail */
     .font-mail {font-size: 20px;}
 
