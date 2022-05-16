@@ -188,6 +188,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
     .pre-footer-subtitle {font-size: 15px;}
     /* Pre-footer p */
     .pre-footer-p {font-size: 14px;}
+    /* Copyright */
+    .copyright-title {font-size: 10px;}
 }
 
 /* galaxy fold min-width 279px */
