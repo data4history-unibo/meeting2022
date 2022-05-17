@@ -126,7 +126,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .homepage-img {background-attachment: fixed; background-image: url('https://shintaoosterwaal.com/wp-content/uploads/2018/01/9d6c8f2107e31a4eb6a687050d511f63-564x675.jpg'); background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; height: 50%;}
 
 /* Time */
-.time-span {background: #EFF3F5; color: #6B6A6A; padding: 2px;}
+.time-span {background: #EFF3F5; border-radius: 37px; color: #6B6A6A; padding: 5px;}
 .time-border {border-left: 5px solid #4B7781;}
 
 /* List */
