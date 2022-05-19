@@ -49,8 +49,8 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .color-white {color: #FEFEFE;}
 
 /* Links */
-.section-pre-footer a {color: #FEFEFE; text-decoration: underline;}
-.section-pre-footer a:hover {color: #CCCECF;}
+.section-pre-footer a, .white-link {color: #FEFEFE; text-decoration: underline;}
+.section-pre-footer a:hover, .white-link:hover {color: #CCCECF;}
 
 /* Font styles */
 .bold {font-weight: 600;}
@@ -63,6 +63,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 /* Background colors */
 /*.background-black {background-color: #343434;}*/
 .background-dimgray {background-color: #4B7781;}
+.background-dimgray-md {background-color: #729FAA;}
 .background-gray {background-color: #EFF3F5;}
 /*.background-hero {background-image: url("img/background.png"); background-repeat: no-repeat; background-size: cover;}*/
 /*@media only screen and (max-width: 1024px) {.background-hero {background-image: none; background-color: #E8E7F0;}}*/
@@ -119,11 +120,21 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 .button-round-empty-red {background-color: transparent; border: 1px solid #AC3720; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-white {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #AC3720; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 .button-round-white:hover {background-color: #AC3720; border: 1px solid #FEFEFE; border-radius: 37px; color: #FEFEFE; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-dimgray {background-color: #FEFEFE; border: 1px solid #FEFEFE; border-radius: 37px; color: #4B7781; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
+.button-dimgray:hover {background-color: #4B7781; border: 1px solid #FFF; border-radius: 37px; color: #FFF; font: 16px Raleway, sans-serif; margin: 10px 0 14px; padding: 13.6px 16px;}
 
 /* Homepage */
 .homepage-side {font: 15px Raleway, sans-serif; letter-spacing: 2px; line-height: 45px; color: #343434; text-transform: uppercase;}
 .homepage-side-right {font: 15px Raleway, sans-serif; letter-spacing: 2px; line-height: 45px; color: #343434; text-transform: uppercase; text-align: right;}
 .homepage-img {background-attachment: fixed; background-image: url('https://shintaoosterwaal.com/wp-content/uploads/2018/01/9d6c8f2107e31a4eb6a687050d511f63-564x675.jpg'); background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; height: 50%;}
+
+@supports (-webkit-touch-callout: none) {
+    .homepage-img {background-image: url('https://shintaoosterwaal.com/wp-content/uploads/2018/01/9d6c8f2107e31a4eb6a687050d511f63-564x675.jpg'); background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; height: 50%;}
+}
+
+/* Time */
+.time-span {background: #EFF3F5; border-radius: 37px; color: #6B6A6A; padding: 5px;}
+.time-border {border-left: 5px solid #4B7781;}
 
 /* List */
 .p-list {font: 14px Raleway, sans-serif; letter-spacing: 0.6; line-height: 1.6;}
