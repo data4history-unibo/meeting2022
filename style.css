@@ -129,7 +129,7 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 /* Homepage */
 .homepage-side {font: 15px Raleway, sans-serif; letter-spacing: 2px; line-height: 45px; color: #343434; text-transform: uppercase;}
 .homepage-side-right {font: 15px Raleway, sans-serif; letter-spacing: 2px; line-height: 45px; color: #343434; text-transform: uppercase; text-align: right;}
-.homepage-img {background-attachment: fixed; background-image: url('https://shintaoosterwaal.com/wp-content/uploads/2018/01/9d6c8f2107e31a4eb6a687050d511f63-564x675.jpg'); background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; height: 50%;}
+.homepage-img {background-attachment: fixed; background-image: url('img/background/background.jpeg'); background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; height: 50%;}
 
 @supports (-webkit-touch-callout: none) {
     .homepage-img {background-image: url('https://shintaoosterwaal.com/wp-content/uploads/2018/01/9d6c8f2107e31a4eb6a687050d511f63-564x675.jpg'); background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; height: 50%;}
@@ -159,14 +159,14 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 #peroni {background-image: url("https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=432345&IdFoto=b2a00359"); background-size: cover; background-repeat: no-repeat;}
 #daquino {background-image: url("https://www.unibo.it/uniboweb/utils/UserImage.aspx?IdAnagrafica=510355&IdFoto=4f676df2"); background-size: cover; background-repeat: no-repeat;}
 #bonora {background-image: url("https://centri.unibo.it/dharc/en/centre/collaborators/paolo-bonora/@@images/1906b6ea-b8d7-403a-87a7-b788bc758e8d.png"); background-size: cover; background-repeat: no-repeat;}
-#beretta {background-image: url("http://larhra.ish-lyon.cnrs.fr/sites/default/files/styles/medium/public/202101_marly_visage.jpg?itok=WwORCCKK"); background-size: cover; background-repeat: no-repeat;}
+#beretta {background-image: url("img/speakers/beretta.png"); background-size: cover; background-repeat: no-repeat;}
 #ciula {background-image: url("https://kdl.kcl.ac.uk/static/media/images/Arianna_lq.width-300.jpg"); background-size: cover; background-repeat: no-repeat;}
 #donig {background-image: url("https://neoclassica.fim.uni-passau.de/wp-content/uploads/20090815-_MG_5203.jpg"); background-size: cover; background-repeat: no-repeat;}
 #heuvel {background-image: url("https://www.uva.nl/binaries/_ht_1456394898867/content/documents/personalpages/h/e/c.m.j.m.vandenheuvel/profilepicture"); background-size: cover; background-repeat: no-repeat;}
 #hiltmann {background-image: url("https://www.geschichte.hu-berlin.de/de/bereiche-und-lehrstuehle/digital-history/bilder/torsten_hiltmann_foto/@@images/4760601b-2a3b-4c28-8019-eb1d035f4bdd.png"); background-size: cover; background-repeat: no-repeat;}
 #scheltjenss {background-image: url("https://www.uni-bamberg.de/fileadmin/_processed_/4/8/csm_2021-02-19_Scheltjens-Portrait_web_1e7e631134.jpg"); background-size: cover; background-repeat: no-repeat;}
 #tomasi {background-image: url("https://centri.unibo.it/dharc/en/centre/centre-people/francesca-tomasi/@@images/37a8adcd-389a-4c2b-bbf6-e8e87355b7ca.jpeg"); background-size: cover; background-repeat: no-repeat;}
-#Alamacery {background-image: url("http://larhra.ish-lyon.cnrs.fr/sites/default/files/styles/medium/public/va2020.jpg?itok=hL6tby3b"); background-size: cover; background-repeat: no-repeat;}
+#Alamacery {background-image: url("img/speakers/alamacery.png"); background-size: cover; background-repeat: no-repeat;}
 #derks {background-image: url("https://0.academia-photos.com/7840760/2775157/3833074/s200_sebastiaan.derks.jpg"); background-size: cover; background-repeat: no-repeat;}
 
 /* Icons */
