@@ -181,6 +181,11 @@ body {background-color: #FEFEFE; font: 16px Raleway, sans-serif; -webkit-font-sm
 /* Papers section */
 .papers-sec {background: #FEFEFE; border-radius: 37px; padding: 3% 5%;}
 
+/* no bullet lists */
+.no-bullet {
+  list-style-type: none;
+}
+
 /* MOBILE OPTIMIZATION */
 @media (max-width: 961px) {
     /* Logo */
